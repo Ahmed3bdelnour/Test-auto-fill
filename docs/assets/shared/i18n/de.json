@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Geben Sie eine mit Ihrem Konto verknüpfte E-Mail-Adresse an, an die der Link für das Zurücksetzen des Passwortes gesandt werden soll.",
+    "mobile-not-enabled": "Ihr Konto ist nicht für die mobile Erfassung freigeschaltet. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator",
+    "ApplicationLoadFailure": "Anwendung konnte nicht initialisiert werden",
+    "confirm-password": "Passwort bestätigen",
+    "confirm-password-placeholder": "Bestätigen Sie Ihr neues Passwort",
+    "InvalidLoginData": "Benutzername oder Passwort falsch",
+    "LicenseAgreement": "Lizenzvereinbarung",
+    "MetaDataLoadFailure": "Sie sind nicht berechtigt, Datenfelder zu laden",
+    "password": "Passwort",
+    "password-placeholder": "Geben Sie Ihr neues Passwort ein.",
+    "Password": "Passwort",
+    "PasswordHelp": "Passwort vergessen",
+    "MobileRegistration": "Anmelden",
+    "PrivacyPolicy": "Datenschutz-Bestimmungen",
+    "RequestingResetPassword": "Passwort zurücksetzen wird angefordert",
+    "RequiredPass": "Passwort ist erforderlich",
+    "RequiredUserName": "Benutzername ist erforderlich",
+    "ResetHelp": "Geben Sie Ihren Benutzernamen ein, um eine E-Mail zu erhalten, mit der Sie Ihr Passwort zurücksetzen können",
+    "ResetPassword": "Passwort zurücksetzen",
+    "ResetPasswordConfirmed": "Ihr Passwort wurde geändert.",
+    "ResetPasswordFailed": "Passwort zurücksetzen ist fehlgeschlagen",
+    "ResetPasswordHelp": "Geben Sie ein neues Passwort ein, um Ihr Konto zu aktualisieren.",
+    "ResetPasswordSucceeded": "In wenigen Minuten erhalten Sie eine E-Mail mit einem Link zum Zurücksetzen Ihres Passwortes. Hinweis: der Link ist nur 30 min. gültig.",
+    "ReturnToLogin": "Melden Sie sich in Ihrem Konto an.",
+    "SignAutomatically": "Automatisch anmelden",
+    "SignIn": "Anmelden",
+    "Next": "Nächste",
+    "Sign-In-Message": "Anmelden...",
+    "Verify-Username-Message": "Benutzername wird überprüft...",
+    "Verify-Username-Failed": "Benutzername nicht korrekt",
+    "UnauthorizedAccess": "Der unbefugte Zugriff auf dieses System ist strengstens untersagt.",
+    "Username": "Benutzername",
+    "passwords-donot-match": "Passwörter stimmen nicht überein",
+    "mobile-registration-help": "Geben Sie Ihre E-Mail-Adresse und den von Ihrem Administrator bereitgestellten Code ein.",
+    "mobile-registration-email": "E-Mail-Adresse",
+    "mobile-registration-code": "Code",
+    "mobile-registration-email-placeholder": "Geben Sie Ihre E-Mail-Adresse ein.",
+    "mobile-registration-code-placeholder": "Geben Sie den von Ihrem Administrator bereitgestellten Code ein",
+    "mobile-register": "Anmelden",
+    "mobile-registering": "Registrierung...",
+    "mobile-registration-pending": "Die Registrierungsanfrage war erfolgreich. Sie sollten eine E-Mail mit Details erhalten, sobald die Registrierungsanfrage genehmigt wurde, normalerweise in wenigen Minuten.",
+    "mobile-registration-failed": "Registrierungsanfrage fehlgeschlagen",
+    "select-tenant": "Mandanten auswählen",
+    "transferring-to-sso": "Navigieren zu Ihrem Single Sign On Provider...",
+    "completing-login": "Die Anmeldung wird abgeschlossen.",
+    "cannot-login-without-assigned-roles": "Für die Anmeldung müssen Ihnen entsprechende Attribute zugewiesen sein - bitte wenden Sie sich an Ihren Systemadministrator.",
+    "cannot-login-without-workflow-permissions": "Für die Anmeldung benötigen Sie die Berechtigung zum Zugang zu den Workflows - bitte wenden Sie sich an Ihren Systemadministrator.",
+    "cannot-login-without-metadata-permissions": "Für die Anmeldung benötigen Sie die Berechtigung zum Zugang zum Datenwörterbuch - bitte wenden Sie sich an Ihren Systemadministrator.",
+    "ResettingPassword": "Passwort wird zurückgesetzt...",
+    "sso-failure": "Die einmalige Anmeldung konnte nicht abgeschlossen werden.",
+    "qrcode-failure": "Anmeldung mit QR-Code fehlgeschlagen."
+  },
+  "User": {
+    "LoadingUser": "Benutzerdaten werden geladen.",
+    "LoadingUserProducts": "Anwendungen werden geladen.",
+    "LoadingDashboard": "Dashboard Gadgets werden geladen.",
+    "LoadingDashboardSettings": "Dashboardeinstellungen werden geladen...",
+    "LoadingMetaData": "Datenwörterbuch wird geladen...",
+    "LoadingProfileDetails": "Profildetails werden geladen...",
+    "LoadingUserRoles": "Benutzereinstellungen werden geladen…",
+    "LoadingUserFeatures": "Benutzerfunktionen werden geladen...",
+    "LoadingAppIntegrations": "Anwendungseinbindungen werden geladen."
+  },
+  "fax-action": {
+    "title": "Fax-Dokument",
+    "label-faxnumber": "Fax-Nummer",
+    "label-subject": "Betreff",
+    "label-subject-hint": "Betreff des Faxes eingeben",
+    "label-message": "Text",
+    "label-message-hint": "Geben Sie den Text für das Deckblatt ein.",
+    "fax-number-required-error": "Fax-Nummer erforderlich.",
+    "fax-number-start-with-plus": "Sie müssen eine internationale Faxnummer eingeben, beginnend mit einem Plus+-Zeichen."
+  },
+  "Common": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "Close": "Schließen",
+    "Loading": "Wird geladen...",
+    "ShowPassword": "Passwort anzeigen",
+    "HidePassword": "Passwort verbergen",
+    "Search": "Suche",
+    "FailedLoadListItems": "Listenelemente für {fieldname} konnten nicht geladen werden",
+    "NoResult": "Keine Ergebnisse gefunden",
+    "noMatches": "Keine Übereinstimmungen gefunden",
+    "From": "Von",
+    "To": "Bis",
+    "Clear": "Zurücksetzen",
+    "Calendar": {
+      "PreviousMonth": "Vorheriger Monat",
+      "NextMonth": "Nächsten Monat",
+      "Months": {
+        "January": "Januar",
+        "February": "Februar",
+        "March": "März",
+        "April": "April",
+        "May": "Mai",
+        "June": "Juni",
+        "July": "Juli",
+        "August": "August",
+        "September": "September",
+        "October": "Oktober",
+        "November": "November",
+        "December": "Dezember"
+      },
+      "WeekDays": {
+        "Sunday": "Sonntag",
+        "Monday": "Montag",
+        "Tuesday": "Dienstag",
+        "Wednesday": "Mittwoch",
+        "Thursday": "Donnerstag",
+        "Friday": "Freitag",
+        "Saturday": "Samstag"
+      },
+      "WeekDaysShort": {
+        "Sun": "So",
+        "Mon": "Mo",
+        "Tue": "Di",
+        "Wed": "Mi",
+        "Thu": "Do",
+        "Fri": "Fr",
+        "Sat": "Sa"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "Standardeinstellungen für die Eingabeaufforderung werden geladen…",
+    "overall-validity-invalid": "Bitte geben Sie gültige Werte ein",
+    "waiting": "Warten…"
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Suche passende Werte",
+    "loading-matching-values-error": "Bei der Suche nach passenden Werten ist ein Fehler aufgetreten",
+    "lookup-modal-title": "Suchfeld anzeigen",
+    "no-matches-found": "Keine Übereinstimmungen gefunden"
+  },
+  "MainHeader": {
+    "Cancel": "Abbrechen",
+    "OK": "OK"
+  },
+  "selection-component": {
+    "executing-action": "Aktion wird ausgeführt..."
+  },
+  "Pagination": {
+    "PerPage": "pro Seite",
+    "Viewing": "Ansicht",
+    "Of": "von",
+    "Found": "gefunden",
+    "Items": "Artikel",
+    "Item": "Artikel",
+    "Refresh": "Aktualisieren",
+    "invalid-page-number": "Ungültige Seitenzahl"
+  },
+  "general": {
+    "date-modified": "Datum der letzten Änderung",
+    "date-created": "Erstellungsdatum",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "Einzelposten",
+    "copy-to-clipboard": "In die Zwischenablage kopieren",
+    "copied-to-clipboard": "Wird in die Zwischenablage kopiert",
+    "no": "Nein",
+    "yes": "Ja",
+    "file-versions-available": "Version (en) verfügbar"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (Bild, einzelne Seite)",
+    "delivery-format-s-jpg": "JPG (Bild, Einzelseite)",
+    "delivery-format-ocr-pdf": "PDF (Bild+Text)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "TXT",
+    "delivery-format-ocr-doc": "DOC",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF/A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (Bild+Text)",
+    "delivery-format-arc-txt-pdf": "PDF/A (Text)",
+    "delivery-format-txt-pdf": "PDF (Text)",
+    "delivery-format": "Lieferformat",
+    "delivery-format-placeholder": "Lieferformat wählen"
+  },
+  "fields": {
+    "substitutable": "Dieses Feld unterstützt Datenfeldersetzung",
+    "items-load-failed": "Elemente konnten nicht geladen werden.",
+    "datafield-not-exist": "Datenfeld ist nicht vorhanden.",
+    "loading-cascading-options": "Optionen werden geladen...",
+    "save-indexing-values-failed": "Indizierungswerte konnten nicht gespeichert werden.",
+    "all-dates": "(Alle Daten)",
+    "select-date-range": "Datumsbereich wählen"
+  },
+  "success-dialog": {
+    "autoClose": "Automatisches Schließen ",
+    "ok": "OK"
+  },
+  "error-dialog": {
+    "autoClose": "Automatisches Schließen ",
+    "close": "Schließen"
+  }
+}

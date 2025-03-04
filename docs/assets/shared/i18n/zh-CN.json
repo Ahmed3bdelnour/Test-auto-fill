@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "指定与您的帐户关联的电子邮件以将密码重置链接发送到",
+    "mobile-not-enabled": "您的账户未启用移动捕获功能。有关详细信息，请联系管理员",
+    "ApplicationLoadFailure": "应用程序初始化失败",
+    "confirm-password": "确认密码",
+    "confirm-password-placeholder": "确认你的新密码",
+    "InvalidLoginData": "使用指定的用户名和密码登录失败",
+    "LicenseAgreement": "许可协议",
+    "MetaDataLoadFailure": "您没有加载数据字段的权限",
+    "password": "密码",
+    "password-placeholder": "输入你的新密码",
+    "Password": "密码",
+    "PasswordHelp": "密码帮助",
+    "MobileRegistration": "寄存器",
+    "PrivacyPolicy": "隐私政策",
+    "RequestingResetPassword": "请求重置密码",
+    "RequiredPass": "密码是必需的",
+    "RequiredUserName": "用户名是必需的",
+    "ResetHelp": "输入您的用户名以接收一封允许您重置密码的电子邮件",
+    "ResetPassword": "重置密码",
+    "ResetPasswordConfirmed": "你的密码已更新",
+    "ResetPasswordFailed": "密码重置失败",
+    "ResetPasswordHelp": "输入新密码以更新您的账户",
+    "ResetPasswordSucceeded": "密码重置请求成功。您应该会在几分钟内收到一封电子邮件，其中包含用于重置密码的链接。注意：该链接只有 30 分钟有效",
+    "ReturnToLogin": "登录到你的账户",
+    "SignAutomatically": "自动登录",
+    "SignIn": "登录",
+    "Next": "下一步",
+    "Sign-In-Message": "正在登录...",
+    "Verify-Username-Message": "验证用户名...",
+    "Verify-Username-Failed": "验证用户名失败",
+    "UnauthorizedAccess": "严禁未经授权访问此系统。",
+    "Username": "用户名",
+    "passwords-donot-match": "密码不匹配",
+    "mobile-registration-help": "输入您的电子邮件地址和管理员提供的验证码。",
+    "mobile-registration-email": "電郵",
+    "mobile-registration-code": "代码",
+    "mobile-registration-email-placeholder": "请输入你的电子邮件",
+    "mobile-registration-code-placeholder": "输入管理员提供的验证码",
+    "mobile-register": "寄存器",
+    "mobile-registering": "正在注册...",
+    "mobile-registration-pending": "注册请求成功。注册请求获得批准后，通常会在几分钟内收到一封包含详细信息的电子邮件。",
+    "mobile-registration-failed": "注册请求失败",
+    "select-tenant": "选择一个租户...",
+    "transferring-to-sso": "导航到您的单点登录提供商...",
+    "completing-login": "正在完成登录...",
+    "cannot-login-without-assigned-roles": "未分配任何角色，你不能登录。请咨询您的系统管理员",
+    "cannot-login-without-workflow-permissions": "未经许可，您不得登录以枚举工作流程。请咨询您的系统管理员",
+    "cannot-login-without-metadata-permissions": "未经许可，您不得登录枚举数据词典。请咨询您的系统管理员",
+    "ResettingPassword": "正在重置密码...",
+    "sso-failure": "无法完成单点登录",
+    "qrcode-failure": "使用 QR Code 登录失败"
+  },
+  "User": {
+    "LoadingUser": "正在加载用户...",
+    "LoadingUserProducts": "加载应用程序...",
+    "LoadingDashboard": "加载仪表板小工具...",
+    "LoadingDashboardSettings": "加载仪表板设置...",
+    "LoadingMetaData": "正在加载数据字典...",
+    "LoadingProfileDetails": "正在加载个人资料详",
+    "LoadingUserRoles": "正在加载用户角色...",
+    "LoadingUserFeatures": "正在加载用户功能...",
+    "LoadingAppIntegrations": "正在加载应用程序集成..."
+  },
+  "fax-action": {
+    "title": "传真文档",
+    "label-faxnumber": "传真号码",
+    "label-subject": "主题",
+    "label-subject-hint": "输入传真主题",
+    "label-message": "留言",
+    "label-message-hint": "输入封面消息",
+    "fax-number-required-error": "传真号码为必填项",
+    "fax-number-start-with-plus": "您必须输入以加号 + 开头的国际传真号码。"
+  },
+  "Common": {
+    "ok": "好",
+    "cancel": "取消",
+    "Close": "關閉",
+    "Loading": "正在加载...",
+    "ShowPassword": "显示密码",
+    "HidePassword": "隐藏密码",
+    "Search": "搜索",
+    "FailedLoadListItems": "无法加载 {fieldname} 的列表项",
+    "NoResult": "未找到结果",
+    "noMatches": "找不到匹配项",
+    "From": "来自",
+    "To": "为了",
+    "Clear": "清除",
+    "Calendar": {
+      "PreviousMonth": "上个月",
+      "NextMonth": "下个月",
+      "Months": {
+        "January": "一月",
+        "February": "二月",
+        "March": "三月",
+        "April": "四月",
+        "May": "可能",
+        "June": "六月",
+        "July": "七月",
+        "August": "八月",
+        "September": "九月",
+        "October": "十月",
+        "November": "十一月",
+        "December": "十二月"
+      },
+      "WeekDays": {
+        "Sunday": "星期日",
+        "Monday": "星期一",
+        "Tuesday": "星期二",
+        "Wednesday": "周三",
+        "Thursday": "星期四",
+        "Friday": "星期五",
+        "Saturday": "星期六"
+      },
+      "WeekDaysShort": {
+        "Sun": "太阳",
+        "Mon": "星期一",
+        "Tue": "周二",
+        "Wed": "星期三",
+        "Thu": "周四",
+        "Fri": "周五",
+        "Sat": "星期六"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "加载提示符默认值...",
+    "overall-validity-invalid": "请输入有效值",
+    "waiting": "等候..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "正在寻找匹配的值...",
+    "loading-matching-values-error": "查找匹配值时发生错误",
+    "lookup-modal-title": "查找字段搜索",
+    "no-matches-found": "找不到匹配项"
+  },
+  "MainHeader": {
+    "Cancel": "取消",
+    "OK": "好"
+  },
+  "selection-component": {
+    "executing-action": "正在执行操作..."
+  },
+  "Pagination": {
+    "PerPage": "每页",
+    "Viewing": "查看",
+    "Of": "的",
+    "Found": "找到了",
+    "Items": "项目",
+    "Item": "项目",
+    "Refresh": "刷新",
+    "invalid-page-number": "指定的页码无效"
+  },
+  "general": {
+    "date-modified": "上次修改日期",
+    "date-created": "创建日期",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "订单项目",
+    "copy-to-clipboard": "复制到剪贴板",
+    "copied-to-clipboard": "已复制到剪贴板",
+    "no": "不",
+    "yes": "是的",
+    "file-versions-available": "可用版本"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "国际电影节",
+    "delivery-format-s-tif": "TIFF（图片，单页）",
+    "delivery-format-s-jpg": "JPG（图像，单页）",
+    "delivery-format-ocr-pdf": "PDF（图片 + 文字）",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "文本",
+    "delivery-format-ocr-doc": "文件",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF/A",
+    "delivery-format-arc-ocr-pdf": "PDF/A（图片 + 文字）",
+    "delivery-format-arc-txt-pdf": "PDF/A（文本）",
+    "delivery-format-txt-pdf": "PDF（文本）",
+    "delivery-format": "配送格式",
+    "delivery-format-placeholder": "选择配送格式"
+  },
+  "fields": {
+    "substitutable": "此字段支持数据字段替换",
+    "items-load-failed": "加载商品失败。",
+    "datafield-not-exist": "数据字段不存在。",
+    "loading-cascading-options": "正在加载选项...",
+    "save-indexing-values-failed": "无法保存索引值。",
+    "all-dates": "(所有日期)",
+    "select-date-range": "选择日期范围"
+  },
+  "success-dialog": {
+    "autoClose": "自动关闭 ",
+    "ok": "好"
+  },
+  "error-dialog": {
+    "autoClose": "自动关闭 ",
+    "close": "關閉"
+  }
+}

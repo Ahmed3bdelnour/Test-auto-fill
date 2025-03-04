@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Specifikoni një email të lidhur me llogarinë tuaj për të dërguar lidhjen e rivendosjes së fjalëkalimit",
+    "mobile-not-enabled": "Llogaria juaj nuk është aktivizuar për Mobile Capture. Kontaktoni administratorin tuaj për më shumë informacion",
+    "ApplicationLoadFailure": "Aplikimi nuk arriti të inicializojë",
+    "confirm-password": "Konfirmo fjalëkalimin",
+    "confirm-password-placeholder": "Konfirmoni fjalëkalimin tuaj të ri",
+    "InvalidLoginData": "Dështoi hyrja me emrin e përdoruesit dhe fjalëkalimin",
+    "LicenseAgreement": "Marrëveshje Licence",
+    "MetaDataLoadFailure": "Ju nuk keni leje për të ngarkuar Fushat e të Dhënave",
+    "password": "Fjalëkalimi",
+    "password-placeholder": "Futni fjalëkalimin tuaj të ri",
+    "Password": "Fjalëkalimi",
+    "PasswordHelp": "Ndihmë fjalëkal",
+    "MobileRegistration": "Regjistrohu",
+    "PrivacyPolicy": "Politika e privatësisë",
+    "RequestingResetPassword": "Kërkimi i Rivendosjes së Fjal",
+    "RequiredPass": "Kërkohet fjalëkalimi",
+    "RequiredUserName": "Emri i përdoruesit është i nevojshëm",
+    "ResetHelp": "Futni emrin e përdoruesit për të marrë një email që do t'ju lejojë të rivendosni fjalëkalimin tuaj",
+    "ResetPassword": "Rivendos fjalëkalimin",
+    "ResetPasswordConfirmed": "Fjalëkalimi juaj është përditësuar",
+    "ResetPasswordFailed": "Rivendosja e fjalëkalimit",
+    "ResetPasswordHelp": "Futni një fjalëkalim të ri për të përditësuar llogarinë tuaj",
+    "ResetPasswordSucceeded": "Kërkesa e rivendosjes së fjalëkalimit arriti Ju duhet të merrni një email me një lidhje për të rivendosur fjalëkalimin tuaj në pak minuta. Shënim: lidhja është e mirë vetëm për 30 minuta",
+    "ReturnToLogin": "Identifikohu në llogarinë tuaj",
+    "SignAutomatically": "Identifikohu automatikisht",
+    "SignIn": "Identifikohu",
+    "Next": "Tjetra",
+    "Sign-In-Message": "Nënshkrimi në...",
+    "Verify-Username-Message": "Verifikimi i emrit të përdoruesit...",
+    "Verify-Username-Failed": "Dështoi të verifikojë emrin",
+    "UnauthorizedAccess": "Qasja e paautorizuar në këtë sistem është rreptësisht e ndaluar.",
+    "Username": "Emri i përdoruesit",
+    "passwords-donot-match": "Fjalëkalimet nuk përputhen",
+    "mobile-registration-help": "Shkruani adresën tuaj të postës elektronike dhe kodin e furnizuar nga Administratori juaj.",
+    "mobile-registration-email": "Email",
+    "mobile-registration-code": "Kodi",
+    "mobile-registration-email-placeholder": "Shkruani adresën tuaj të emailit",
+    "mobile-registration-code-placeholder": "Futni kodin e furnizuar nga administratori juaj",
+    "mobile-register": "Regjistrohu",
+    "mobile-registering": "Regjistrimi...",
+    "mobile-registration-pending": "Kërkesa e regjistrimit arriti. Ju duhet të merrni një email me detaje pasi kërkesa e regjistrimit është miratuar, zakonisht në pak minuta.",
+    "mobile-registration-failed": "Kërkesa për regjistrim",
+    "select-tenant": "Zgjidh një qiramarrës...",
+    "transferring-to-sso": "Duke lundruar te ofruesi juaj i shenjave te vetme...",
+    "completing-login": "Kompletimi i hyrjes...",
+    "cannot-login-without-assigned-roles": "Ju nuk mund të identifikoheni pa ndonjë Rolet caktuar. Ju lutemi shikoni Administratorin e Sistemit",
+    "cannot-login-without-workflow-permissions": "Ju nuk mund të identifikoheni pa leje për të numëruar flukset e punës. Ju lutemi shikoni Administratorin e Sistemit",
+    "cannot-login-without-metadata-permissions": "Ju nuk mund të identifikoheni pa leje për të numëruar fjalorin e të dhënave. Ju lutemi shikoni Administratorin e Sistemit",
+    "ResettingPassword": "Rivendosja e fjalëkalimit...",
+    "sso-failure": "Dështoi në përfundimin e shenjës së vetme",
+    "qrcode-failure": "Dështoi identifikimi duke përdorur QR Code"
+  },
+  "User": {
+    "LoadingUser": "Ngarkimi i përdoruesit...",
+    "LoadingUserProducts": "Ngarkimi i aplikacioneve...",
+    "LoadingDashboard": "Ngarkimi i pajisjeve të pultit...",
+    "LoadingDashboardSettings": "Cilësimet e kontrollit të ngarkimit...",
+    "LoadingMetaData": "Ngarkimi i të dhënave fjalor...",
+    "LoadingProfileDetails": "Detajet e profilit të ngarkimit...",
+    "LoadingUserRoles": "Ngarkimi i roleve të përdoruesit...",
+    "LoadingUserFeatures": "Karakteristikat e përdoruesit...",
+    "LoadingAppIntegrations": "Ngarkimi i integrimeve të aplikacioneve..."
+  },
+  "fax-action": {
+    "title": "Dokument faksi",
+    "label-faxnumber": "Numri i faksit",
+    "label-subject": "Subjekti",
+    "label-subject-hint": "Shkruani subjektin e faksit",
+    "label-message": "Mesazh",
+    "label-message-hint": "Shkruani mesazhin e mbulimit",
+    "fax-number-required-error": "Kërkohet numri i faksit",
+    "fax-number-start-with-plus": "Duhet të futni një numër ndërkombëtar të faksit, duke filluar me një shenjë plus +."
+  },
+  "Common": {
+    "ok": "Ne rregull",
+    "cancel": "Anulo",
+    "Close": "Mbylle",
+    "Loading": "Ngarkimi...",
+    "ShowPassword": "Shfaq fjalëkalimin",
+    "HidePassword": "Fshih fjalëkalimin",
+    "Search": "Kërko",
+    "FailedLoadListItems": "Dështoi në ngarkimin e artikujve të listës për {fieldname}",
+    "NoResult": "Nuk u gjetën rezultate",
+    "noMatches": "Nuk u gjetën ndeshje",
+    "From": "Nga",
+    "To": "Për",
+    "Clear": "Qartë",
+    "Calendar": {
+      "PreviousMonth": "Muaji i mëparshëm",
+      "NextMonth": "Muaji i ardhshëm",
+      "Months": {
+        "January": "janar",
+        "February": "shkurt",
+        "March": "marsh",
+        "April": "prill",
+        "May": "Maj",
+        "June": "qershor",
+        "July": "korrik",
+        "August": "gusht",
+        "September": "shtator",
+        "October": "tetor",
+        "November": "nëntor",
+        "December": "dhjetor"
+      },
+      "WeekDays": {
+        "Sunday": "e diel",
+        "Monday": "e hënë",
+        "Tuesday": "e martë",
+        "Wednesday": "e mërkurë",
+        "Thursday": "e enjte",
+        "Friday": "e premte",
+        "Saturday": "e shtunë"
+      },
+      "WeekDaysShort": {
+        "Sun": "dielli",
+        "Mon": "imja",
+        "Tue": "E juaja",
+        "Wed": "e mërkurë",
+        "Thu": "Mblidhni",
+        "Fri": "e premte",
+        "Sat": "Shtu"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "Ngarkimi i parazgjedhjeve të shpejtë...",
+    "overall-validity-invalid": "Ju lutemi shkruani vlerat e vlef",
+    "waiting": "Duke pritur..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Duke kërkuar për vlerat përputhen...",
+    "loading-matching-values-error": "Ndodhi një gabim gjatë kërkimit të vlerave që përputhen",
+    "lookup-modal-title": "Kërkimi në fushën e kërkimit",
+    "no-matches-found": "Nuk u gjet asnjë ndeshje"
+  },
+  "MainHeader": {
+    "Cancel": "Anulo",
+    "OK": "Ne rregull"
+  },
+  "selection-component": {
+    "executing-action": "Veprimi i ekzekutimit..."
+  },
+  "Pagination": {
+    "PerPage": "për faqe",
+    "Viewing": "Shikimi",
+    "Of": "të",
+    "Found": "Gjetur",
+    "Items": "artikuj",
+    "Item": "artikull",
+    "Refresh": "Rifresko",
+    "invalid-page-number": "Numri i pavlefshëm i faqes së"
+  },
+  "general": {
+    "date-modified": "Data e ndryshuar për herë të fundit",
+    "date-created": "Data e krijuar",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "artikujt e linjës",
+    "copy-to-clipboard": "Kopjo në Clipboard",
+    "copied-to-clipboard": "Kopjohet në Clipboard",
+    "no": "Jo",
+    "yes": "po",
+    "file-versions-available": "version (s) i disponueshëm"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (Imazh, Faqe e vetme)",
+    "delivery-format-s-jpg": "JPG (Imazh, Faqe e vetme)",
+    "delivery-format-ocr-pdf": "PDF (Image+Tekst)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "tekst",
+    "delivery-format-ocr-doc": "DOC",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF / A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (Image+Tekst)",
+    "delivery-format-arc-txt-pdf": "PDF/A (Tekst)",
+    "delivery-format-txt-pdf": "PDF (Tekst)",
+    "delivery-format": "Formati i dorëzimit",
+    "delivery-format-placeholder": "Zgjidhni Formatin e D"
+  },
+  "fields": {
+    "substitutable": "Këto fusha mbështet zëvendësimin e fushës së të dhënave",
+    "items-load-failed": "Dështoi në ngarkimin e artikujve.",
+    "datafield-not-exist": "Fusha e të dhënave nuk ekziston.",
+    "loading-cascading-options": "Opsionet e ngarkimit...",
+    "save-indexing-values-failed": "Dështoi në ruajtjen e vlerave indeksuese.",
+    "all-dates": "(Të gjitha Datat)",
+    "select-date-range": "Zgjidh datën Gama"
+  },
+  "success-dialog": {
+    "autoClose": "Mbyllja automatike në ",
+    "ok": "Ne rregull"
+  },
+  "error-dialog": {
+    "autoClose": "Mbyllja automatike në ",
+    "close": "Mbylle"
+  }
+}

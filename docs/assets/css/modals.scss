@@ -1,0 +1,11 @@
+ngx-smart-modal[identifier='searchContactsModal'] {
+  .nsm-dialog.nsm-dialog-open {
+    max-width: 85vw;
+  }
+}
+
+ngx-smart-modal[identifier='componentDeploymentSchedulingModal'] {
+  .nsm-dialog.nsm-dialog-open {
+    max-width: 85vw;
+  }
+}

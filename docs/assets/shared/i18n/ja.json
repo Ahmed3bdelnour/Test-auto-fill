@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "パスワードリセットリンクを送信するアカウントに関連付けられている電子メールを指定してください",
+    "mobile-not-enabled": "アカウントでモバイルキャプチャが有効になっていません。詳細については、管理者に問い合わせてください。",
+    "ApplicationLoadFailure": "アプリケーションの初期化に失敗しました",
+    "confirm-password": "パスワードの確認",
+    "confirm-password-placeholder": "新しいパスワードを確認",
+    "InvalidLoginData": "指定されたユーザ名とパスワードでログインできませんでした",
+    "LicenseAgreement": "ライセンス契約",
+    "MetaDataLoadFailure": "データフィールドを読み込む権限がありません",
+    "password": "[パスワード]",
+    "password-placeholder": "新しいパスワードを入力してください。",
+    "Password": "[パスワード]",
+    "PasswordHelp": "パスワードヘルプ",
+    "MobileRegistration": "登録する",
+    "PrivacyPolicy": "プライバシーポリシー",
+    "RequestingResetPassword": "パスワードリセットの要求",
+    "RequiredPass": "パスワードは必須です",
+    "RequiredUserName": "ユーザー名は必須です",
+    "ResetHelp": "ユーザー名を入力すると、パスワードをリセットできるメールが届きます。",
+    "ResetPassword": "パスワードのリセット",
+    "ResetPasswordConfirmed": "パスワードが更新されました",
+    "ResetPasswordFailed": "パスワードのリセットに失敗",
+    "ResetPasswordHelp": "新しいパスワードを入力してアカウントを更新してください",
+    "ResetPasswordSucceeded": "パスワードのリセット要求は成功しました。数分後にパスワードをリセットするためのリンクが記載されたメールが届きます。注:リンクは30分間のみ有効です",
+    "ReturnToLogin": "アカウントにログインする",
+    "SignAutomatically": "自動的にサインインする",
+    "SignIn": "サインイン",
+    "Next": "次へ",
+    "Sign-In-Message": "サインイン中...",
+    "Verify-Username-Message": "ユーザ名を確認中...",
+    "Verify-Username-Failed": "ユーザー名の検証に失敗しました",
+    "UnauthorizedAccess": "本システムへの不正アクセスは固く禁じられています。",
+    "Username": "ユーザー名",
+    "passwords-donot-match": "パスワードが一致しない",
+    "mobile-registration-help": "管理者から提供された電子メールアドレスとコードを入力します。",
+    "mobile-registration-email": "電子メール",
+    "mobile-registration-code": "コード",
+    "mobile-registration-email-placeholder": "メールアドレスを入力してください",
+    "mobile-registration-code-placeholder": "管理者から提供されたコードを入力します。",
+    "mobile-register": "登録する",
+    "mobile-registering": "登録中...",
+    "mobile-registration-pending": "登録要求は成功しました。登録リクエストが承認されると、通常は数分以内に詳細が記載されたメールが届きます。",
+    "mobile-registration-failed": "登録要求は失敗しました",
+    "select-tenant": "テナントの選択...",
+    "transferring-to-sso": "シングルサインオンプロバイダに移動中...",
+    "completing-login": "ログインを完了中...",
+    "cannot-login-without-assigned-roles": "ロールを割り当てないとログインできません。システム管理者に連絡してください。",
+    "cannot-login-without-workflow-permissions": "ワークフローを列挙する権限がないとログインできません。システム管理者に連絡してください。",
+    "cannot-login-without-metadata-permissions": "データディクショナリを列挙する許可なくログインすることはできません。システム管理者に連絡してください。",
+    "ResettingPassword": "パスワードをリセット中...",
+    "sso-failure": "シングルサインオンを完了できませんでした",
+    "qrcode-failure": "QR コードを使用してログインできませんでした"
+  },
+  "User": {
+    "LoadingUser": "ユーザーを読み込んでいます...",
+    "LoadingUserProducts": "アプリケーションをロード中...",
+    "LoadingDashboard": "ダッシュボードガジェットを読み込んでいます...",
+    "LoadingDashboardSettings": "ダッシュボード設定を読み込んでいます...",
+    "LoadingMetaData": "データディクショナリの読み込み中",
+    "LoadingProfileDetails": "プロファイルの詳細を読み込んでいます...",
+    "LoadingUserRoles": "ユーザーロールを読み込んでいます...",
+    "LoadingUserFeatures": "ユーザーフィーチャを読み込んでいます...",
+    "LoadingAppIntegrations": "アプリケーションインテグレーションを読み込んでいます..."
+  },
+  "fax-action": {
+    "title": "ファックス文書",
+    "label-faxnumber": "ファックス番号",
+    "label-subject": "件名",
+    "label-subject-hint": "ファクスの件名を入力します。",
+    "label-message": "[メッセージ]",
+    "label-message-hint": "カバーページメッセージを入力",
+    "fax-number-required-error": "ファックス番号は必須です",
+    "fax-number-start-with-plus": "プラス記号で始まる国際ファックス番号を入力する必要があります。"
+  },
+  "Common": {
+    "ok": "オーケー",
+    "cancel": "[キャンセル]",
+    "Close": "閉じる",
+    "Loading": "ロード中...",
+    "ShowPassword": "パスワードを表示",
+    "HidePassword": "パスワードを隠す",
+    "Search": "サーチ",
+    "FailedLoadListItems": "{fieldname} のリストアイテムを読み込めませんでした",
+    "NoResult": "結果は見つかりませんでした",
+    "noMatches": "一致するものは見つかりませんでした",
+    "From": "から",
+    "To": "に",
+    "Clear": "[クリア]",
+    "Calendar": {
+      "PreviousMonth": "前月",
+      "NextMonth": "次の月",
+      "Months": {
+        "January": "一月",
+        "February": "2月",
+        "March": "行進",
+        "April": "4月",
+        "May": "5月",
+        "June": "六月",
+        "July": "7月",
+        "August": "8月",
+        "September": "9月",
+        "October": "10月",
+        "November": "11月",
+        "December": "12月"
+      },
+      "WeekDays": {
+        "Sunday": "日曜日",
+        "Monday": "月曜",
+        "Tuesday": "火曜日",
+        "Wednesday": "水曜日",
+        "Thursday": "木曜日",
+        "Friday": "金曜日",
+        "Saturday": "土曜日"
+      },
+      "WeekDaysShort": {
+        "Sun": "太陽",
+        "Mon": "月曜日",
+        "Tue": "火",
+        "Wed": "結婚した",
+        "Thu": "木",
+        "Fri": "金",
+        "Sat": "土"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "プロンプトの既定値をロード中...",
+    "overall-validity-invalid": "有効な値を入力してください",
+    "waiting": "待ってる..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "一致する値を探しています...",
+    "loading-matching-values-error": "一致する値を検索中にエラーが発生しました",
+    "lookup-modal-title": "ルックアップフィールド検索",
+    "no-matches-found": "一致するものは見つかりませんでした"
+  },
+  "MainHeader": {
+    "Cancel": "[キャンセル]",
+    "OK": "オーケー"
+  },
+  "selection-component": {
+    "executing-action": "アクションを実行中..."
+  },
+  "Pagination": {
+    "PerPage": "1ページあたり",
+    "Viewing": "表示中",
+    "Of": "の",
+    "Found": "見つかった",
+    "Items": "アイテム",
+    "Item": "項目",
+    "Refresh": "リフレッシュ",
+    "invalid-page-number": "無効なページ番号が指定されました"
+  },
+  "general": {
+    "date-modified": "最終更新日",
+    "date-created": "作成日",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "ラインアイテム",
+    "copy-to-clipboard": "クリップボードにコピー",
+    "copied-to-clipboard": "クリップボードにコピー",
+    "no": "いいえ",
+    "yes": "はい",
+    "file-versions-available": "使用可能なバージョン"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (画像、単一ページ)",
+    "delivery-format-s-jpg": "JPG (画像、単一ページ)",
+    "delivery-format-ocr-pdf": "PDF (画像+テキスト)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "txt",
+    "delivery-format-ocr-doc": "DOC",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF/A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (イメージ+テキスト)",
+    "delivery-format-arc-txt-pdf": "PDF/A (テキスト)",
+    "delivery-format-txt-pdf": "PDF (テキスト)",
+    "delivery-format": "納品書式",
+    "delivery-format-placeholder": "配送フォーマットの選択"
+  },
+  "fields": {
+    "substitutable": "このフィールドはデータフィールド置換をサポートしています",
+    "items-load-failed": "アイテムを読み込めませんでした。",
+    "datafield-not-exist": "データフィールドが存在しません。",
+    "loading-cascading-options": "オプションを読み込んでいます...",
+    "save-indexing-values-failed": "インデックス値を保存できませんでした。",
+    "all-dates": "(すべての日付)",
+    "select-date-range": "日付範囲を選択"
+  },
+  "success-dialog": {
+    "autoClose": "自動クローズイン ",
+    "ok": "オーケー"
+  },
+  "error-dialog": {
+    "autoClose": "自動クローズイン ",
+    "close": "閉じる"
+  }
+}

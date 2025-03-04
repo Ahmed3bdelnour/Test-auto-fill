@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icnWorkflow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn/workflow" fill="#000000">
+            <g id="icnWorkflow">
+                <path d="M8,6 L11,6 L11,5 C11,4.44771525 11.4477153,4 12,4 L15,4 C15.5522847,4 16,4.44771525 16,5 L16,8 C16,8.55228475 15.5522847,9 15,9 L12,9 C11.4477153,9 11,8.55228475 11,8 L11,7 L8,7 L8,13 L11,13 L11,12 C11,11.4477153 11.4477153,11 12,11 L15,11 C15.5522847,11 16,11.4477153 16,12 L16,15 C16,15.5522847 15.5522847,16 15,16 L12,16 C11.4477153,16 11,15.5522847 11,15 L11,14 L7.5,14 C7.22385763,14 7,13.7761424 7,13.5 L7,3 L4.94999094,3 C4.71835578,4.14112016 3.70947896,5 2.5,5 C1.11928813,5 0,3.88071187 0,2.5 C0,1.11928813 1.11928813,0 2.5,0 C3.70947896,0 4.71835578,0.858879839 4.94999094,2 L7.5,2 C7.77614237,2 8,2.22385763 8,2.5 L8,6 Z M12,5 L12,8 L15,8 L15,5 L12,5 Z M12,12 L12,15 L15,15 L15,12 L12,12 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

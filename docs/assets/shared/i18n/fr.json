@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Spécifiez un e-mail associé à votre compte pour envoyer le lien de réinitialisation du mot de passe à",
+    "mobile-not-enabled": "Votre compte n'est pas activé pour Mobile Capture. Contactez votre administrateur pour plus d'informations",
+    "ApplicationLoadFailure": "Échec de l'initialisation de l'application",
+    "confirm-password": "Confirmer le",
+    "confirm-password-placeholder": "Confirmez votre nouveau mot de passe",
+    "InvalidLoginData": "Échec de connexion avec le nom d'utilisateur et le mot de passe",
+    "LicenseAgreement": "Contrat de licence",
+    "MetaDataLoadFailure": "Vous n'êtes pas autorisé à charger des champs de données",
+    "password": "mot de passe",
+    "password-placeholder": "Entrez votre nouveau mot de passe",
+    "Password": "mot de passe",
+    "PasswordHelp": "Aide sur le mot",
+    "MobileRegistration": "S'inscrire",
+    "PrivacyPolicy": "Politique de confidentialité",
+    "RequestingResetPassword": "Demande de réinitialisation du mot de passe",
+    "RequiredPass": "Le mot de passe est requis",
+    "RequiredUserName": "Le nom d'utilisateur est obligatoire",
+    "ResetHelp": "Entrez votre nom d'utilisateur pour recevoir un e-mail qui vous permettra de réinitialiser votre mot de passe",
+    "ResetPassword": "Réinitialiser le mot de passe",
+    "ResetPasswordConfirmed": "Votre mot de passe a été mis à jour",
+    "ResetPasswordFailed": "Échec de la réinitialisation",
+    "ResetPasswordHelp": "Entrez un nouveau mot de passe pour mettre à jour votre compte",
+    "ResetPasswordSucceeded": "La demande de réinitialisation du mot de passe a réussi. Vous devriez recevoir un e-mail contenant un lien pour réinitialiser votre mot de passe dans quelques minutes. Remarque : le lien n'est valable que pendant 30 minutes",
+    "ReturnToLogin": "Connectez-vous à votre compte",
+    "SignAutomatically": "Connectez-vous automatiquement",
+    "SignIn": "Connectez-vous",
+    "Next": "Suivant",
+    "Sign-In-Message": "Connexion en cours...",
+    "Verify-Username-Message": "Vérification du nom d'utilisateur en cours...",
+    "Verify-Username-Failed": "Impossible de vérifier le nom d'utilisateur",
+    "UnauthorizedAccess": "L'accès non autorisé à ce système est strictement interdit.",
+    "Username": "Nom d'utilisateur",
+    "passwords-donot-match": "Les mots de passe ne correspondent pas",
+    "mobile-registration-help": "Entrez votre adresse e-mail et le code fourni par votre administrateur.",
+    "mobile-registration-email": "E-mail",
+    "mobile-registration-code": "Code",
+    "mobile-registration-email-placeholder": "Entrez votre adresse e-mail",
+    "mobile-registration-code-placeholder": "Entrez le code fourni par votre administrateur",
+    "mobile-register": "S'inscrire",
+    "mobile-registering": "Enregistrement en cours...",
+    "mobile-registration-pending": "La demande d'enregistrement a réussi. Vous devriez recevoir un e-mail contenant les détails une fois que la demande d'enregistrement a été approuvée, généralement dans quelques minutes.",
+    "mobile-registration-failed": "échec de la demande d'enregistrement",
+    "select-tenant": "Sélectionnez un locataire...",
+    "transferring-to-sso": "Accéder à votre fournisseur Single Sign On...",
+    "completing-login": "Fin de la connexion...",
+    "cannot-login-without-assigned-roles": "Vous ne pouvez pas vous connecter sans aucun rôle attribué. Consultez votre administrateur système",
+    "cannot-login-without-workflow-permissions": "Vous ne pouvez pas vous connecter sans l'autorisation d'énumérer les flux de travail. Veuillez consulter votre administrateur système",
+    "cannot-login-without-metadata-permissions": "Vous ne pouvez pas vous connecter sans l'autorisation d'énumérer le dictionnaire de données. Consultez votre administrateur système",
+    "ResettingPassword": "Réinitialisation du mot de passe...",
+    "sso-failure": "Impossible de terminer la connexion unique",
+    "qrcode-failure": "Impossible de se connecter à l'aide du code QR"
+  },
+  "User": {
+    "LoadingUser": "Chargement des utilisateurs...",
+    "LoadingUserProducts": "Chargement des applications...",
+    "LoadingDashboard": "Chargement des gadgets sur le tableau",
+    "LoadingDashboardSettings": "Loading des paramètres du tableau de bord",
+    "LoadingMetaData": "Chargement du dictionnaire de données...",
+    "LoadingProfileDetails": "Chargement des détails du profil...",
+    "LoadingUserRoles": "Chargement des rôles d'utilisateurs...",
+    "LoadingUserFeatures": "Chargement des fonctionnalités utilisateur...",
+    "LoadingAppIntegrations": "Chargement des intégrations d'applications..."
+  },
+  "fax-action": {
+    "title": "Document de fax",
+    "label-faxnumber": "Numéro de télécopie",
+    "label-subject": "Objet",
+    "label-subject-hint": "Entrez l'objet de la télécopie",
+    "label-message": "Un message",
+    "label-message-hint": "Entrez le message de la page de garde",
+    "fax-number-required-error": "Le numéro de télécopieur est requis",
+    "fax-number-start-with-plus": "Vous devez entrer un numéro de fax international, en commençant par un signe plus +."
+  },
+  "Common": {
+    "ok": "OK.",
+    "cancel": "Annuler",
+    "Close": "Fermer",
+    "Loading": "Chargement...",
+    "ShowPassword": "Afficher le mot de",
+    "HidePassword": "Masquer le mot",
+    "Search": "Chercher",
+    "FailedLoadListItems": "Impossible de charger les éléments de liste pour {fieldname}",
+    "NoResult": "Aucun résultat trouvé",
+    "noMatches": "Aucune correspondance trouvée",
+    "From": "À partir de",
+    "To": "À",
+    "Clear": "Transparent",
+    "Calendar": {
+      "PreviousMonth": "Mois précédent",
+      "NextMonth": "Le mois prochain",
+      "Months": {
+        "January": "janvier",
+        "February": "février",
+        "March": "Mars",
+        "April": "avril",
+        "May": "mai",
+        "June": "juin",
+        "July": "juillet",
+        "August": "août",
+        "September": "septembre",
+        "October": "octobre",
+        "November": "novembre",
+        "December": "décembre"
+      },
+      "WeekDays": {
+        "Sunday": "dimanche",
+        "Monday": "Lundi",
+        "Tuesday": "mardi",
+        "Wednesday": "Mercredi",
+        "Thursday": "jeudi",
+        "Friday": "Vendredi",
+        "Saturday": "samedi"
+      },
+      "WeekDaysShort": {
+        "Sun": "Soleil",
+        "Mon": "Lun",
+        "Tue": "Mar",
+        "Wed": "mer",
+        "Thu": "jeu",
+        "Fri": "Ven",
+        "Sat": "Sam"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "Paramètres par défaut de l'invite de chargement...",
+    "overall-validity-invalid": "Saisissez des valeurs valides",
+    "waiting": "En attente..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Vous recherchez des valeurs correspondantes...",
+    "loading-matching-values-error": "Une erreur s'est produite lors de la recherche de valeurs correspondantes",
+    "lookup-modal-title": "Recherche dans un champ de recherche",
+    "no-matches-found": "Aucune correspondance trouvée"
+  },
+  "MainHeader": {
+    "Cancel": "Annuler",
+    "OK": "OK."
+  },
+  "selection-component": {
+    "executing-action": "Action en cours d'exécution..."
+  },
+  "Pagination": {
+    "PerPage": "par page",
+    "Viewing": "Visualisation",
+    "Of": "de",
+    "Found": "Trouvé",
+    "Items": "articles",
+    "Item": "article",
+    "Refresh": "Actualiser",
+    "invalid-page-number": "Numéro de page spécifié non valide"
+  },
+  "general": {
+    "date-modified": "Date de dernière modification",
+    "date-created": "Date de création",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "articles de ligne",
+    "copy-to-clipboard": "Copier dans le presse-papiers",
+    "copied-to-clipboard": "Copié dans le presse-papier",
+    "no": "Non",
+    "yes": "Oui",
+    "file-versions-available": "version (s) disponible (s)"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (image, page unique)",
+    "delivery-format-s-jpg": "JPG (image, une seule page)",
+    "delivery-format-ocr-pdf": "PDF (image+texte)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "SMS",
+    "delivery-format-ocr-doc": "DOC",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF / A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (image+texte)",
+    "delivery-format-arc-txt-pdf": "PDF/A (texte)",
+    "delivery-format-txt-pdf": "PDF (texte)",
+    "delivery-format": "Format de livraison",
+    "delivery-format-placeholder": "Sélectionnez le format de livraison"
+  },
+  "fields": {
+    "substitutable": "Ces champs prennent en charge la substitution de champs de données",
+    "items-load-failed": "Impossible de charger les éléments.",
+    "datafield-not-exist": "Le champ de données n'existe pas.",
+    "loading-cascading-options": "Options de chargement...",
+    "save-indexing-values-failed": "Impossible d'enregistrer les valeurs d'indexation.",
+    "all-dates": "(Toutes les dates)",
+    "select-date-range": "Sélectionner une plage de dates"
+  },
+  "success-dialog": {
+    "autoClose": "Fermeture automatique ",
+    "ok": "OK."
+  },
+  "error-dialog": {
+    "autoClose": "Fermeture automatique ",
+    "close": "Fermer"
+  }
+}

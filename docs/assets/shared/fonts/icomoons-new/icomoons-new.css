@@ -1,0 +1,358 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?mcugj3');
+  src: url('fonts/icomoon.eot?mcugj3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mcugj3') format('truetype'), url('fonts/icomoon.woff?mcugj3') format('woff'),
+    url('fonts/icomoon.svg?mcugj3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icomoon-'],
+[class*=' icomoon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-admin:before {
+  content: '\e901';
+}
+.icomoon-documents_16px:before {
+  content: '\e902';
+}
+.icomoon-alert:before {
+  content: '\e903';
+}
+.icomoon-financial:before {
+  content: '\e906';
+}
+.icomoon-calendar:before {
+  content: '\e907';
+}
+.icomoon-UDF_16px:before {
+  content: '\e909';
+}
+.icomoon-card_view:before {
+  content: '\e90a';
+}
+.icomoon-columns:before {
+  content: '\e90d';
+}
+.icomoon-delete:before {
+  content: '\e90e';
+}
+.icomoon-active-dot:before {
+  content: '\e915';
+}
+.icomoon-documents:before {
+  content: '\e916';
+}
+.icomoon-exp_row_settings:before {
+  content: '\e917';
+}
+.icomoon-arrow_to_left:before {
+  content: '\e918';
+}
+.icomoon-arrow_to_right:before {
+  content: '\e919';
+}
+.icomoon-edit:before {
+  content: '\e91a';
+}
+.icomoon-email:before {
+  content: '\e91b';
+}
+.icomoon-evaluation:before {
+  content: '\e91c';
+}
+.icomoon-export2:before {
+  content: '\e91d';
+}
+.icomoon-filter2:before {
+  content: '\e91e';
+}
+.icomoon-full_close_screen:before {
+  content: '\e91f';
+}
+.icomoon-full_screen:before {
+  content: '\e920';
+}
+.icomoon-a_add_16px:before {
+  content: '\e921';
+}
+.icomoon-import2:before {
+  content: '\e923';
+}
+.icomoon-info:before {
+  content: '\e924';
+}
+.icomoon-list_view:before {
+  content: '\e925';
+}
+.icomoon-more:before {
+  content: '\e927';
+}
+.icomoon-new_window:before {
+  content: '\e928';
+}
+.icomoon-notes:before {
+  content: '\e929';
+}
+.icomoon-paperclip:before {
+  content: '\e92a';
+}
+.icomoon-PDF:before {
+  content: '\e92b';
+}
+.icomoon-refresh2:before {
+  content: '\e92c';
+}
+.icomoon-undo_redo:before {
+  content: '\e92e';
+}
+.icomoon-view:before {
+  content: '\e92f';
+}
+.icomoon-view_bargraph:before {
+  content: '\e930';
+}
+.icomoon-view_piechart:before {
+  content: '\e932';
+}
+.icomoon-WordDoc:before {
+  content: '\e933';
+}
+.icomoon-left_align:before {
+  content: '\e935';
+}
+.icomoon-XLS:before {
+  content: '\e936';
+}
+.icomoon-favorites_filled:before {
+  content: '\e937';
+}
+.icomoon-gantt:before {
+  content: '\e938';
+}
+.icomoon-plus:before {
+  content: '\e939';
+}
+.icomoon-add:before {
+  content: '\e93a';
+}
+.icomoon-resources:before {
+  content: '\e93b';
+}
+.icomoon-divider-small:before {
+  content: '\e93d';
+}
+.icomoon-grip-small:before {
+  content: '\e93f';
+}
+.icomoon-collapse_expand:before {
+  content: '\e940';
+}
+.icomoon-sort:before {
+  content: '\e941';
+}
+.icomoon-zoom_time:before {
+  content: '\e942';
+}
+.icomoon-close_thin:before {
+  content: '\e944';
+}
+.icomoon-bold2:before {
+  content: '\e946';
+}
+.icomoon-skills5:before {
+  content: '\e947';
+}
+.icomoon-bullet:before {
+  content: '\e948';
+}
+.icomoon-center_align:before {
+  content: '\e949';
+}
+.icomoon-italic2:before {
+  content: '\e94a';
+}
+.icomoon-left_align2:before {
+  content: '\e94b';
+}
+.icomoon-link:before {
+  content: '\e94c';
+}
+.icomoon-number_bullet:before {
+  content: '\e94d';
+}
+.icomoon-picture:before {
+  content: '\e94e';
+}
+.icomoon-right_align:before {
+  content: '\e94f';
+}
+.icomoon-underline:before {
+  content: '\e950';
+}
+.icomoon-status_update:before {
+  content: '\e951';
+}
+.icomoon-a_arrow:before {
+  content: '\e952';
+}
+.icomoon-a_baseline:before {
+  content: '\e953';
+}
+.icomoon-a_collpase_all:before {
+  content: '\e954';
+}
+.icomoon-a_copy:before {
+  content: '\e955';
+}
+.icomoon-a_cut:before {
+  content: '\e956';
+}
+.icomoon-a_expand_all:before {
+  content: '\e957';
+}
+.icomoon-a_indent_left:before {
+  content: '\e958';
+}
+.icomoon-a_indent_right:before {
+  content: '\e959';
+}
+.icomoon-a_paste:before {
+  content: '\e95a';
+}
+.icomoon-preloader:before {
+  content: '\e95b';
+}
+.icomoon-systemhelp2:before {
+  content: '\e95c';
+}
+.icomoon-leaverequest_20px:before {
+  content: '\e95d';
+}
+.icomoon-add_full:before {
+  content: '\e95e';
+}
+.icomoon-hamburger:before {
+  content: '\e95f';
+}
+.icomoon-inbox:before {
+  content: '\e960';
+}
+.icomoon-location2:before {
+  content: '\e961';
+}
+.icomoon-notifications:before {
+  content: '\e962';
+}
+.icomoon-search:before {
+  content: '\e963';
+}
+.icomoon-systemhelp:before {
+  content: '\e964';
+}
+.icomoon-clicks:before {
+  content: '\e966';
+}
+.icomoon-comments:before {
+  content: '\e967';
+}
+.icomoon-dashboards:before {
+  content: '\e968';
+}
+.icomoon-expensereport:before {
+  content: '\e969';
+}
+.icomoon-favorites:before {
+  content: '\e96a';
+}
+.icomoon-history:before {
+  content: '\e96c';
+}
+.icomoon-home:before {
+  content: '\e96d';
+}
+.icomoon-issues:before {
+  content: '\e96e';
+}
+.icomoon-pages:before {
+  content: '\e96f';
+}
+.icomoon-projects:before {
+  content: '\e970';
+}
+.icomoon-reports:before {
+  content: '\e971';
+}
+.icomoon-risks:before {
+  content: '\e972';
+}
+.icomoon-searches:before {
+  content: '\e974';
+}
+.icomoon-security:before {
+  content: '\e975';
+}
+.icomoon-tasks:before {
+  content: '\e976';
+}
+.icomoon-timesheet:before {
+  content: '\e977';
+}
+.icomoon-user:before {
+  content: '\e978';
+}
+.icomoon-uservisits:before {
+  content: '\e979';
+}
+.icomoon-worklists:before {
+  content: '\e97a';
+}
+.icomoon-health_down:before {
+  content: '\e97b';
+}
+.icomoon-health_normal:before {
+  content: '\e97d';
+}
+.icomoon-health_not_set:before {
+  content: '\e97e';
+}
+.icomoon-health_up:before {
+  content: '\e980';
+}
+.icomoon-strike_text:before {
+  content: '\e982';
+}
+.icomoon-justified_align:before {
+  content: '\e983';
+}
+.icomoon-center_align2:before {
+  content: '\e984';
+}
+.icomoon-right_align2:before {
+  content: '\e985';
+}
+.icomoon-container:before {
+  content: '\e987';
+}
+.icomoon-move:before {
+  content: '\e988';
+}
+.icomoon-login-error:before {
+  content: '\e989';
+}
+.icomoon-login-success:before {
+  content: '\e98a';
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="icnScan.svg"
+   width="16"
+   height="16"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icnScan</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1131"
+     inkscape:window-height="791"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="13.350176"
+     inkscape:cx="-2.3305085"
+     inkscape:cy="16.926902"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg11" />
+  <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">icnScan</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Capture-Flow"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(0.07487051,1.8239943)">
+    <g
+       id="Capture-Icons"
+       transform="translate(-200,-138)"
+       style="fill:#151515">
+      <g
+         id="icnScan"
+         transform="translate(200,137)">
+        <path
+           d="M 1.5,10 C 1.042809,10 1,10.042809 1,10.5 v 3 C 1,13.957191 1.042809,14 1.5,14 h 13 C 14.957536,14 15,13.95751 15,13.5 V 10 Z m 13,5 H 1.5 C 0.49052429,15 0,14.509476 0,13.5 v -3 C 0,9.4905243 0.49052429,9 1.5,9 H 15 c 0.510168,0 0.989115,0.2077645 0.997552,0.5 C 15.999702,9.5744704 16,9.8963954 16,10 v 3.5 c 0,1.00968 -0.490062,1.5 -1.5,1.5 z"
+           id="Stroke-26"
+           inkscape:connector-curvature="0"
+           style="fill-rule:nonzero" />
+        <path
+           d="M 13.5,11 C 13.224,11 13,11.225 13,11.5 13,11.775 13.224,12 13.5,12 13.776,12 14,11.775 14,11.5 14,11.225 13.776,11 13.5,11"
+           id="Fill-28"
+           inkscape:connector-curvature="0" />
+        <path
+           d="M 11.5,11 C 11.224,11 11,11.225 11,11.5 11,11.775 11.224,12 11.5,12 11.776,12 12,11.775 12,11.5 12,11.225 11.776,11 11.5,11"
+           id="Fill-29"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 16.643191,5.2142984 c 0.276034,0.00775 0.493524,0.2377958 0.485777,0.5138295 -0.0077,0.2760337 -0.237795,0.4935234 -0.513829,0.4857769 L 1.3568086,5.7857016 C 1.0807749,5.7779551 0.86328516,5.5479058 0.87103165,5.2718721 0.87877814,4.9958384 1.1088274,4.7783487 1.3848611,4.7860952 Z"
+           id="Line-2"
+           transform="rotate(30,9,5.5)"
+           inkscape:connector-curvature="0"
+           style="fill-rule:nonzero" />
+      </g>
+    </g>
+  </g>
+</svg>

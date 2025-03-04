@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "יש לפרט כתובת דוא\"ל המקושרת לחשבון על מנת לשלוח את הקישור לאיפוס הסיסמה",
+    "mobile-not-enabled": "החשבון שלך אינו זמין ללכידת תמונה במכשיר נייד, לקבלת מידע נוסף, פנה למנהל המערכת",
+    "ApplicationLoadFailure": "היישום נכשל באתחול",
+    "confirm-password": "אשר סיסמה",
+    "confirm-password-placeholder": "אשר את הסיסמה החדשה שלך",
+    "InvalidLoginData": "ההתחברות עם שם המשתמש והסיסמה שצוינו נכשלה",
+    "LicenseAgreement": "הסכם רישיון",
+    "MetaDataLoadFailure": "אין לך הרשאה לטעון שדות נתונים",
+    "password": "סיסמה",
+    "password-placeholder": "הזן את הסיסמה החדשה שלך",
+    "Password": "סיסמה",
+    "PasswordHelp": "קישור לאיפוס סיסמה",
+    "MobileRegistration": "הרשמה",
+    "PrivacyPolicy": "מדיניות פרטיות",
+    "RequestingResetPassword": "בקשה לאיפוס סיסמה",
+    "RequiredPass": "דרושה סיסמה",
+    "RequiredUserName": "נדרש שם המשתמש",
+    "ResetHelp": "יש להזין את שם המשתמש לקבלת הודעת מייל עם קישור לאיפוס סיסמה",
+    "ResetPassword": "איפוס סיסמה",
+    "ResetPasswordConfirmed": "הסיסמה שלך עודכנה",
+    "ResetPasswordFailed": "איפוס הסיסמה נכשל",
+    "ResetPasswordHelp": "הזן סיסמה חדשה לעדכון החשבון",
+    "ResetPasswordSucceeded": "הבקשה לאיפוס הסיסמה עברה בהצלחה. קישור לאיפס הסיסמה נשלח בדקות הקרובות לכתובת הדוא\"ל הרשומה בשירות, לתשומת ליבך, הקישור יהיה פעיל עבור 30 דקות בלבד",
+    "ReturnToLogin": "התחבר לחשבון שלך",
+    "SignAutomatically": "היכנס באופן אוטומטי",
+    "SignIn": "היכנס",
+    "Next": "הבא",
+    "Sign-In-Message": "מתחבר...",
+    "Verify-Username-Message": "אימות שם משתמש...",
+    "Verify-Username-Failed": "אימות שם משתמש נכשל",
+    "UnauthorizedAccess": "גישה לא מורשית למערכת זו אסורה בהחלט.",
+    "Username": "שם משתמש",
+    "passwords-donot-match": "הסיסמאות אינן תואמות",
+    "mobile-registration-help": "הזן את כתובת הדואר האלקטרוני שלך ואת הקוד שסופק על-ידי מנהל המערכת .",
+    "mobile-registration-email": "אימייל",
+    "mobile-registration-code": "קוד",
+    "mobile-registration-email-placeholder": "הזן את כתובת האימייל שלך",
+    "mobile-registration-code-placeholder": "הזן את הקוד שסופק על ידי מנהל המערכת",
+    "mobile-register": "הרשמה",
+    "mobile-registering": "רישום...",
+    "mobile-registration-pending": "הבקשה לרישום השירות עברה בהצלחה. לאחר שהבקשה תאושר על ידי מנהל המערכת תשלח הודעה מפורטת, בדרך כלל בעוד כמה דקות.",
+    "mobile-registration-failed": "בקשת ההרשמה נכשלה",
+    "select-tenant": "בחר משתמש...",
+    "transferring-to-sso": "ניווט אל ספק לצורך התחברות בנוהל כניסה יחיד....",
+    "completing-login": "השלמת התחברות...",
+    "cannot-login-without-assigned-roles": "לא הוגדרו שירותים בחשבון, אין הרשאה להתחבר. יש לפנות למנהל המערכת",
+    "cannot-login-without-workflow-permissions": "אין הרשאה לעדכון תהליכי העבודה, אין הרשאה להתחבר, יש לפנות למנהל המערכת",
+    "cannot-login-without-metadata-permissions": "אין הרשאה לעדכון מילון הנתונים, אין הרשאה להתחבר, יש לפנות למנהל המערכת",
+    "ResettingPassword": "מאפס סיסמה...",
+    "sso-failure": "כשלון התחברות בנוהל כניסה יחיד",
+    "qrcode-failure": "כשלון התחברות באמצעות קוד QR"
+  },
+  "User": {
+    "LoadingUser": "טוען משתמש...",
+    "LoadingUserProducts": "טוען יישומים...",
+    "LoadingDashboard": "טוען גאדג'טים של לוח המחוונים...",
+    "LoadingDashboardSettings": "טעינת הגדרות לוח המחוונים...",
+    "LoadingMetaData": "טוען מילון נתונים...",
+    "LoadingProfileDetails": "טוען פרטי פרופיל...",
+    "LoadingUserRoles": "טוען תפקידי משתמש...",
+    "LoadingUserFeatures": "טוען תכונות משתמש...",
+    "LoadingAppIntegrations": "טוען אינטגרציות יישומים..."
+  },
+  "fax-action": {
+    "title": "מסמך פקס",
+    "label-faxnumber": "מספר פקס",
+    "label-subject": "נושא",
+    "label-subject-hint": "הזן את נושא הפקס, משמש לתיעוד בלבד, לא יוצג בפקס עצמו",
+    "label-message": "הודעה",
+    "label-message-hint": "הזן את ההודעת עבור הדף המקדים",
+    "fax-number-required-error": "נדרש להזין מספר פקס",
+    "fax-number-start-with-plus": "להזנת מספר פקס בינלאומי, החל בסימן פלוס + ולאחריו קידומת מדינה ומספר"
+  },
+  "Common": {
+    "ok": "אוקי",
+    "cancel": "ביטול",
+    "Close": "סגור",
+    "Loading": "טוען...",
+    "ShowPassword": "הצג סיסמה",
+    "HidePassword": "הסתר סיסמה",
+    "Search": "חיפוש",
+    "FailedLoadListItems": "כשלון בטעינה של פרטי רשימה עבור {fieldname}",
+    "NoResult": "לא נמצאו תוצאות",
+    "noMatches": "לא נמצאו התאמות",
+    "From": "מאת",
+    "To": "אל",
+    "Clear": "נקה",
+    "Calendar": {
+      "PreviousMonth": "החודש הקודם",
+      "NextMonth": "החודש הבא",
+      "Months": {
+        "January": "ינואר",
+        "February": "פברואר",
+        "March": "מרץ",
+        "April": "אפריל",
+        "May": "מאי",
+        "June": "יוני",
+        "July": "יולי",
+        "August": "אוגוסט",
+        "September": "ספטמבר",
+        "October": "אוקטובר",
+        "November": "נובמבר",
+        "December": "דצמבר"
+      },
+      "WeekDays": {
+        "Sunday": "יום ראשון",
+        "Monday": "יום שני",
+        "Tuesday": "יום שלישי",
+        "Wednesday": "יום רביעי",
+        "Thursday": "יום חמישי",
+        "Friday": "יום שישי",
+        "Saturday": "יום שבת"
+      },
+      "WeekDaysShort": {
+        "Sun": "ראשון",
+        "Mon": "שני",
+        "Tue": "שלישי",
+        "Wed": "רביעי",
+        "Thu": "חמישי",
+        "Fri": "שישי",
+        "Sat": "שבת"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "טעינת ברירות מחדל של הנחיה...",
+    "overall-validity-invalid": "הזן ערכים חוקיים",
+    "waiting": "ממתין..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "מחפש ערכים תואמים...",
+    "loading-matching-values-error": "אירעה שגיאה בעת חיפוש ערכים תואמים",
+    "lookup-modal-title": "חיפוש שדות חיפוש",
+    "no-matches-found": "לא נמצאו התאמות"
+  },
+  "MainHeader": {
+    "Cancel": "ביטול",
+    "OK": "אוקי"
+  },
+  "selection-component": {
+    "executing-action": "מבצע פעולה..."
+  },
+  "Pagination": {
+    "PerPage": "לדף",
+    "Viewing": "צפייה",
+    "Of": "של",
+    "Found": "נמצאו",
+    "Items": "פריטים",
+    "Item": "פריט",
+    "Refresh": "רענון",
+    "invalid-page-number": "מספר עמוד שצוין לא חוקי"
+  },
+  "general": {
+    "date-modified": "תאריך שינוי אחרון",
+    "date-created": "תאריך יצירה",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "פריטי שורה",
+    "copy-to-clipboard": "העתק ללוח העריכה",
+    "copied-to-clipboard": "הועתק ללוח העריכה",
+    "no": "לא",
+    "yes": "כן",
+    "file-versions-available": "גרסה/גרסאות זמינות"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (תמונה, עמוד יחיד)",
+    "delivery-format-s-jpg": "JPG (תמונה, עמוד יחיד)",
+    "delivery-format-ocr-pdf": "PDF (תמונה+טקסט)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "TXT",
+    "delivery-format-ocr-doc": "DOC",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF/A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (תמונה+טקסט)",
+    "delivery-format-arc-txt-pdf": "PDF/A (טקסט)",
+    "delivery-format-txt-pdf": "PDF (טקסט)",
+    "delivery-format": "תבנית מסירה",
+    "delivery-format-placeholder": "בחר תבנית מסירה"
+  },
+  "fields": {
+    "substitutable": "שדות אלה תומכים בהחלפת שדות נתונים",
+    "items-load-failed": "טעינת פריטים נכשלה.",
+    "datafield-not-exist": "שדה הנתונים לא קיים.",
+    "loading-cascading-options": "אפשרויות טעינה...",
+    "save-indexing-values-failed": "כשלון בשמירת ערכי יצירת אינדקס",
+    "all-dates": "(כל התאריכים)",
+    "select-date-range": "בחר טווח תאריכים"
+  },
+  "success-dialog": {
+    "autoClose": "סגירה אוטומטית ב ",
+    "ok": "אוקי"
+  },
+  "error-dialog": {
+    "autoClose": "סגירה אוטומטית ב ",
+    "close": "סגור"
+  }
+}

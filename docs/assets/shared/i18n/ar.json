@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "حدد رسالة بريد إلكتروني مقترنة بحسابك لإرسال رابط إعادة تعيين كلمة المرور إلى",
+    "mobile-not-enabled": "لم يتم تمكين حسابك لـ Mobile Capture. اتصل بالمسؤول للحصول على مزيد من المعلومات",
+    "ApplicationLoadFailure": "فشل التطبيق في التهيئة",
+    "confirm-password": "تأكيد كلمة المرور",
+    "confirm-password-placeholder": "قم بتأكيد كلمة المرور الجديدة",
+    "InvalidLoginData": "فشل تسجيل الدخول باستخدام اسم المستخدم وكلمة المرور المحددين",
+    "LicenseAgreement": "اتفاقية الترخيص",
+    "MetaDataLoadFailure": "ليس لديك إذن لتحميل حقول البيانات",
+    "password": "كلمة المرور",
+    "password-placeholder": "أدخل كلمة المرور الجديدة",
+    "Password": "كلمة المرور",
+    "PasswordHelp": "تعليمات كلمة المرور",
+    "MobileRegistration": "سجل",
+    "PrivacyPolicy": "سياسة الخصوصية",
+    "RequestingResetPassword": "طلب إعادة تعيين كلمة المرور",
+    "RequiredPass": "كلمة المرور مطلوبة",
+    "RequiredUserName": "اسم المستخدم مطلوب",
+    "ResetHelp": "أدخل اسم المستخدم الخاص بك لتلقي بريد إلكتروني يسمح لك بإعادة تعيين كلمة المرور الخاصة بك",
+    "ResetPassword": "تعيين كلمة المرور",
+    "ResetPasswordConfirmed": "تم تحديث كلمة المرور الخاصة بك",
+    "ResetPasswordFailed": "فشلت إعادة تعيين كلمة المرور",
+    "ResetPasswordHelp": "أدخل كلمة مرور جديدة لتحديث حسابك",
+    "ResetPasswordSucceeded": "نجح طلب إعادة تعيين كلمة المرور. يجب أن تتلقى بريدًا إلكترونيًا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك في بضع دقائق. ملاحظة: الرابط جيد فقط لمدة 30 دقيقة",
+    "ReturnToLogin": "تسجيل الدخول إلى حسابك",
+    "SignAutomatically": "تسجيل الدخول تلقائيًا",
+    "SignIn": "تسجيل الدخول",
+    "Next": "التالي",
+    "Sign-In-Message": "تسجيل الدخول...",
+    "Verify-Username-Message": "التحقق من اسم المستخدم...",
+    "Verify-Username-Failed": "فشل التحقق من اسم المستخدم",
+    "UnauthorizedAccess": "الوصول غير المصرح به إلى هذا النظام ممنوع منعا باتا.",
+    "Username": "اسم المستخدم",
+    "passwords-donot-match": "كلمات المرور غير متطابقة",
+    "mobile-registration-help": "أدخل عنوان بريدك الإلكتروني والرمز الذي يوفره المسؤول.",
+    "mobile-registration-email": "البريد الإلكتروني",
+    "mobile-registration-code": "كود",
+    "mobile-registration-email-placeholder": "أدخل عنوان بريدك الإلكتروني",
+    "mobile-registration-code-placeholder": "أدخل الرمز الذي تم توفيره من قبل المسؤول",
+    "mobile-register": "سجل",
+    "mobile-registering": "تسجيل...",
+    "mobile-registration-pending": "نجح طلب التسجيل. يجب أن تتلقى بريدًا إلكترونيًا يحتوي على تفاصيل بمجرد الموافقة على طلب التسجيل، عادةً في غضون بضع دقائق.",
+    "mobile-registration-failed": "فشل طلب التسجيل",
+    "select-tenant": "حدد المستأجر...",
+    "transferring-to-sso": "الانتقال إلى مزود تسجيل الدخول الفردي الخاص بك...",
+    "completing-login": "يتم إكمال تسجيل الدخول...",
+    "cannot-login-without-assigned-roles": "لا يجوز لك تسجيل الدخول دون تعيين أي أدوار. يرجى الاطلاع على مسؤول النظام الخاص بك",
+    "cannot-login-without-workflow-permissions": "لا يجوز لك تسجيل الدخول دون إذن لتعداد سير العمل. يرجى الاطلاع على مسؤول النظام الخاص بك",
+    "cannot-login-without-metadata-permissions": "لا يجوز لك تسجيل الدخول دون إذن لتعداد قاموس البيانات. يرجى الاطلاع على مسؤول النظام الخاص بك",
+    "ResettingPassword": "إعادة تعيين كلمة المرور...",
+    "sso-failure": "فشل إكمال تسجيل الدخول الفردي",
+    "qrcode-failure": "فشل تسجيل الدخول باستخدام رمز الاستجابة السريعة"
+  },
+  "User": {
+    "LoadingUser": "يتم تحميل المستخدم...",
+    "LoadingUserProducts": "تطبيقات التحميل...",
+    "LoadingDashboard": "يتم تحميل أدوات لوحة المعلومات...",
+    "LoadingDashboardSettings": "يتم تحميل إعدادات لوحة المعلومات...",
+    "LoadingMetaData": "تحميل قاموس البيانات...",
+    "LoadingProfileDetails": "يتم تحميل تفاصيل الملف الشخصي...",
+    "LoadingUserRoles": "يتم تحميل أدوار المستخدم...",
+    "LoadingUserFeatures": "يتم تحميل ميزات المستخدم...",
+    "LoadingAppIntegrations": "يتم تحميل عمليات تكامل التطبيقات..."
+  },
+  "fax-action": {
+    "title": "مستند فاكس",
+    "label-faxnumber": "رقم فاكس",
+    "label-subject": "موضوع",
+    "label-subject-hint": "أدخل موضوع فاكس",
+    "label-message": "رسالة",
+    "label-message-hint": "أدخل رسالة Coverpage",
+    "fax-number-required-error": "رقم فاكس مطلوب",
+    "fax-number-start-with-plus": "يجب عليك إدخال رقم فاكس دولي، بدءًا بعلامة plus +."
+  },
+  "Common": {
+    "ok": "موافق",
+    "cancel": "إلغاء",
+    "Close": "إغلاق",
+    "Loading": "يتم التحميل...",
+    "ShowPassword": "إظهار كلمة المرور",
+    "HidePassword": "إخفاء كلمة المرور",
+    "Search": "بحث",
+    "FailedLoadListItems": "فشل تحميل عناصر القائمة لـ {fieldname}",
+    "NoResult": "لم يتم العثور على نتائج",
+    "noMatches": "لم يتم العثور على مباريات",
+    "From": "من",
+    "To": "إلى",
+    "Clear": "مسح",
+    "Calendar": {
+      "PreviousMonth": "الشهر السابق",
+      "NextMonth": "الشهر المقبل",
+      "Months": {
+        "January": "كانون الثاني",
+        "February": "فبراير",
+        "March": "مارس",
+        "April": "أبريل",
+        "May": "مايو",
+        "June": "يونيو",
+        "July": "يوليو",
+        "August": "أغسطس",
+        "September": "سبتمبر",
+        "October": "شهر اكتوبر",
+        "November": "شهر نوفمبر",
+        "December": "ديسمبر"
+      },
+      "WeekDays": {
+        "Sunday": "الأحد",
+        "Monday": "الإثنين",
+        "Tuesday": "الثلاثاء",
+        "Wednesday": "الأربعاء",
+        "Thursday": "الخميس",
+        "Friday": "الجمعة",
+        "Saturday": "يوم السبت"
+      },
+      "WeekDaysShort": {
+        "Sun": "صن",
+        "Mon": "الإثنين",
+        "Tue": "الثلاثاء",
+        "Wed": "تزوج",
+        "Thu": "الخميس",
+        "Fri": "الجمعة",
+        "Sat": "سات"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "تحميل الإعدادات الافتراضية للمطالبة...",
+    "overall-validity-invalid": "الرجاء إدخال قيم صالحة",
+    "waiting": "الانتظار..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "تبحث عن قيم مطابقة...",
+    "loading-matching-values-error": "حدث خطأ أثناء البحث عن القيم المطابقة",
+    "lookup-modal-title": "بحث حقل البحث",
+    "no-matches-found": "لم يتم العثور على تطابق"
+  },
+  "MainHeader": {
+    "Cancel": "إلغاء",
+    "OK": "موافق"
+  },
+  "selection-component": {
+    "executing-action": "تنفيذ الإجراء..."
+  },
+  "Pagination": {
+    "PerPage": "لكل صفحة",
+    "Viewing": "عرض",
+    "Of": "من",
+    "Found": "وجدت",
+    "Items": "العناصر",
+    "Item": "عنصر",
+    "Refresh": "تحديث",
+    "invalid-page-number": "رقم صفحة غير صالح محدد"
+  },
+  "general": {
+    "date-modified": "تاريخ آخر تعديل",
+    "date-created": "تاريخ الإنشاء",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "عناصر الخط",
+    "copy-to-clipboard": "نسخ إلى الحافظة",
+    "copied-to-clipboard": "تم نسخها إلى الحافظة",
+    "no": "لا",
+    "yes": "نعم",
+    "file-versions-available": "الإصدار (الإصدارات) المتاحة"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "بي دي إف",
+    "delivery-format-tif": "تيف",
+    "delivery-format-s-tif": "TIFF (صورة، صفحة واحدة)",
+    "delivery-format-s-jpg": "JPG (صورة، صفحة واحدة)",
+    "delivery-format-ocr-pdf": "PDF (صورة+نص)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "نص",
+    "delivery-format-ocr-doc": "وثيقة",
+    "delivery-format-ocr-docx": "ملف DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF / A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (صورة+نص)",
+    "delivery-format-arc-txt-pdf": "PDF/A (نص)",
+    "delivery-format-txt-pdf": "PDF (نص)",
+    "delivery-format": "تنسيق التسليم",
+    "delivery-format-placeholder": "حدد تنسيق التسليم"
+  },
+  "fields": {
+    "substitutable": "تدعم هذه الحقول استبدال حقل البيانات",
+    "items-load-failed": "فشل تحميل العناصر.",
+    "datafield-not-exist": "حقل البيانات غير موجود.",
+    "loading-cascading-options": "خيارات التحميل...",
+    "save-indexing-values-failed": "فشل حفظ قيم الفهرسة.",
+    "all-dates": "(جميع التواريخ)",
+    "select-date-range": "حدد نطاق التاريخ"
+  },
+  "success-dialog": {
+    "autoClose": "إغلاق تلقائي ",
+    "ok": "موافق"
+  },
+  "error-dialog": {
+    "autoClose": "إغلاق تلقائي ",
+    "close": "إغلاق"
+  }
+}

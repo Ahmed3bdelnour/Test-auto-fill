@@ -1,0 +1,13 @@
+<svg version="1.1" x="0px" y="0px" viewBox="0 0 48 34" style="enable-background:new 0 0 48 48;" xmlns="http://www.w3.org/2000/svg">
+  <defs></defs>
+  <g transform="matrix(1, 0, 0, 1, 0, -14)">
+    <polygon style="fill:#6e6e6e;" points="7,48 0,40 14,40 	"></polygon>
+    <polygon style="fill:#6e6e6e;" points="9,31 9,44 5,44 5,30 	"></polygon>
+  </g>
+  <path style="fill:#6e6e6e;" d="M 43 16 L 43 4 C 43 1.8 41.2 0 39 0 L 9 0 C 6.8 0 5 1.8 5 4 L 5 16 C 5 18.2 6.8 20 9 20 L 39 20 C 41.2 20 43 18.2 43 16 Z M 9 4 L 39 4 L 39 16 L 9 16 L 9 4 Z"></path>
+  <circle style="fill:#43A047;" cx="38" cy="24" r="10"></circle>
+  <g transform="matrix(1, 0, 0, 1, 0, -14)">
+    <rect x="32" y="36" style="fill:#FFFFFF;" width="12" height="4"></rect>
+    <rect x="36" y="32" style="fill:#FFFFFF;" width="4" height="12"></rect>
+  </g>
+</svg>

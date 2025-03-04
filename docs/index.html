@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="h-100">
+  <head>
+    <script>
+      _upland_build_number = null;
+      _upland_version = 'V9999R0.0';
+    </script>
+    <meta name="upland-build-number"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      _google_analytics_id = null;
+    </script>
+    <meta name="google-analytics-injection"/>
+
+    <meta charset="utf-8"/>
+    <title></title>
+    <base href="/test-auto-fill/"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, max-age=0, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+
+    <!-- meta tags to support pwa on ios -->
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-title" id="apple-mobile-web-app-title-meta"/>
+
+    <!-- meta tags for touch icons on ios -->
+    <link rel="apple-touch-icon" id="pwa-icon-ios-default-placeholder"/>
+    <link rel="apple-touch-icon" sizes="72x72" id="pwa-icon-ios-72x72-placeholder"/>
+    <link rel="apple-touch-icon" sizes="96x96" id="pwa-icon-ios-96x96-placeholder"/>
+    <link rel="apple-touch-icon" sizes="144x144" id="pwa-icon-ios-144x144-placeholder"/>
+    <link rel="apple-touch-icon" sizes="152x152" id="pwa-icon-ios-152x152-placeholder"/>
+
+    <!-- meta tags for splash screens on ios -->
+    <link media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="iphone5-splash-screen-placeholder"/>
+    <link media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="iphone6-splash-screen-placeholder"/>
+    <link media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" id="iphoneplus-splash-screen-placeholder"/>
+    <link media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" id="iphonex-splash-screen-placeholder"/>
+    <link media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="iphonexr-splash-screen-placeholder"/>
+    <link media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" id="iphonexsmax-splash-screen-placeholder"/>
+    <link media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="ipad-splash-screen-placeholder"/>
+    <link media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="ipadpro1-splash-screen-placeholder"/>
+    <link media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="ipadpro2-splash-screen-placeholder"/>
+    <link media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" id="ipadpro3-splash-screen-placeholder"/>
+
+    <link rel="manifest" id="manifest-placeholder"/>
+    <meta name="theme-color" id="theme-color"/>
+
+    <link rel="stylesheet" href="assets/shared/fonts/icomoons-new/icomoons-new.css"/>
+    <script type="text/javascript" src="https://assist.uplandsoftware.com/js/entry.js"></script>
+    <script id="opencv-placeholder"></script>
+
+    <style type="text/css">
+      body,
+      html {
+        height: 100vh !important;
+      }
+
+      .app-loading {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      .app-loading .spinner {
+        height: 200px;
+        width: 200px;
+        animation: rotate 2s linear infinite;
+        transform-origin: center center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      .app-loading .spinner .path {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        animation: dash 1.5s ease-in-out infinite;
+        stroke-linecap: round;
+        stroke: #ddd;
+      }
+
+      @keyframes rotate {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes dash {
+        0% {
+          stroke-dasharray: 1, 200;
+          stroke-dashoffset: 0;
+        }
+
+        50% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -35px;
+        }
+
+        100% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -124px;
+        }
+      }
+    </style>
+  <link rel="stylesheet" href="styles.css"></head>
+
+  <body class="h-100" tabindex="-1" onfocus="blur();">
+    <app-root class="d-block h-100">
+      <div class="app-loading">
+        <div>
+          <svg class="spinner" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+          </svg>
+        </div>
+      </div>
+    </app-root>
+  <script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="scripts.js" defer></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
+</html>

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+  --white: #ffffff;
+  --gray-05: #f1f3f3;
+  --gray-10: #e0e3e6;
+  --gray-20: #bfc6ce;
+  --gray-30: #9fa9b7;
+  --gray-40: #838fa0;
+  --gray-50: #6b7786;
+  --gray-60: #525c69;
+  --gray-70: #3d454f;
+  --gray-80: #252b31;
+  --gray-90: #16191d;
+  --gray-95: #0b0c0f;
+  --blue-05: #f0f6fe;
+  --blue-10: #e2eefd;
+  --blue-20: #bcd8fc;
+  --blue-30: #7eb1f4;
+  --blue-40: #4a8fea;
+  --blue-50: #2574db;
+  --blue-60: #0c5cc5;
+  --blue-70: #0049a9;
+  --blue-80: #003a86;
+  --blue-90: #002a61;
+  --blue-95: #001633;
+  --green-10: #e3fac3;
+  --green-30: #b9f467;
+  --green-50: #76ca02;
+  --green-70: #599900;
+  --green-80: #3c6600;
+  --green-90: #1f3600;
+  --red-10: #ffb7ce;
+  --red-30: #fa578b;
+  --red-50: #e60c51;
+  --red-70: #c2003d;
+  --red-80: #93002f;
+  --red-90: #63001f;
+  --yellow-10: #ffe3a6;
+  --yellow-30: #f9b625;
+  --yellow-50: #e39b00;
+  --yellow-70: #bb8000;
+  --yellow-80: #875c00;
+  --yellow-90: #523800;
+  --purple-10: #f3c6ff;
+  --purple-30: #dc73f9;
+  --purple-50: #bb30e2;
+  --purple-70: #910ab7;
+  --purple-80: #640080;
+  --purple-90: #380047;
+  --teal-10: #e1f9ff;
+  --teal-30: #9be5fa;
+  --teal-50: #5fcae7;
+  --teal-70: #36a6c5;
+  --teal-80: #1f7e98;
+  --teal-90: #12586b;
+  --gray-50-20: rgba(107, 119, 134, 0.2);
+  --blue-95-60: rgba(0, 22, 51, 0.6);
+  /*
+        branding
+
+    */
+  --brand-primary-color: #2574db;
+  --brand-secondary-color: #e2eefd;
+  --header-height: 56px;
+  --vertical-nav-width: 215px;
+  --vertical-nav-submenu-width: 250px;
+}
+
+/*--------------------------------------------------------------------------*/
+/*---------------------------Upland UI Theme--------------------------------*/
+/*--------------------------------------------------------------------------*/
+$gray-05: #f1f3f3;
+$gray-10: #e0e3e6;
+$gray-50: #6b7786;
+$blue-10: #e2eefd;
+$hover: var(--brand-secondary-color); //#cde2f6;
+
+$upland-blue: var(--brand-primary-color);
+$upland-panel-background: var(--brand-secondary-color);
+
+$upland-primary-btn-bg: #2574db; // var(--blue-50)
+
+$upland-header-height: var(--header-height);
+$upland-secondary-header-height: 56px;
+
+$upland-gray-background: $gray-05;
+
+$upland-body-color: #151515;
+$upland-green: #3c6600; // var(--green-80)
+$upland-yellow: #875c00; // var(--yellow-80)
+$upland-red: #93002f; // var(--red-80)
+$upland-light-gray: #bfc6ce;
+$upland-dark-blue: #0d4a62;
+$upland-light: #fff;
+$open-sans: 'Open Sans', sans-serif;
+$upland-active-bg: $upland-primary-btn-bg;
+$upland-input-height: calc(1.5em + 0.75rem + 2px);
+$upland-input-btn-focus-width: 0.2rem;
+$upland-input-btn-focus-color: rgba(var(--brand-primary-color), 0.8);
+$upland-input-btn-focus-box-shadow: 0 0 0 $upland-input-btn-focus-width $upland-input-btn-focus-color;
+$upland-input-focus-border-color: $upland-input-btn-focus-color;
+$upland-alert-bg-level: 0;
+$upland-alert-border-level: 0;
+$upland-alert-color-level: 6;
+
+/*--------------------------------------------------------------------------*/
+/*--------------------------Bootstrap Overrides-----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: var(--brand-primary-color) !important;
+  border-color: var(--brand-primary-color) !important;
+}
+
+$body-color: $upland-body-color;
+$info: $upland-dark-blue;
+$primary: $upland-primary-btn-bg;
+$success: $upland-green;
+$danger: $upland-red;
+$warning: $upland-yellow;
+
+$alert-bg-level: $upland-alert-bg-level;
+$alert-border-level: $upland-alert-border-level;
+$alert-color-level: $upland-alert-color-level;
+$light: $upland-light;
+$input-height: $upland-input-height;
+$input-color: #495057;
+$input-border-color: $upland-light-gray;
+$btn-border-radius: 2px;
+$btn-border-radius-lg: 2px;
+$btn-border-radius-sm: 2px;
+$btn-padding-x: 16px;
+$btn-padding-y: 4px;
+
+.rtl {
+  .ml-auto {
+    margin-left: initial !important;
+    margin-right: auto !important;
+  }
+
+  .mr-auto {
+    margin-right: initial !important;
+    margin-left: auto !important;
+  }
+
+  $spaces: (0, 0), (1, 0.25), (2, 0.5), (3, 1), (4, 1.5), (5, 3);
+
+  @each $i, $value in $spaces {
+    .pr-#{$i} {
+      padding-right: initial !important;
+      padding-left: #{$value}rem !important;
+    }
+
+    .pl-#{$i} {
+      padding-left: initial !important;
+      padding-right: #{$value}rem !important;
+    }
+
+    .ml-#{$i} {
+      margin-left: initial !important;
+      margin-right: #{$value}rem !important;
+    }
+
+    .mr-#{$i} {
+      margin-right: initial !important;
+      margin-left: #{$value}rem !important;
+    }
+  }
+
+  @for $i from 1 through 12 {
+    .offset-#{$i} {
+      margin-left: initial !important;
+      margin-right: calc(100% * (#{$i}/ 12)) !important;
+    }
+  }
+
+  .text-right {
+    text-align: left !important;
+  }
+
+  .text-left {
+    text-align: right !important;
+  }
+}

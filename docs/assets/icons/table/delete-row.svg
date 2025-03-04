@@ -1,0 +1,9 @@
+<svg version="1.0" x="0px" y="0px" viewBox="0 0 43 34" enable-background="new 0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs></defs>
+  <path fill="#6e6e6e" d="M 38 16 L 38 4 C 38 1.8 36.2 0 34 0 L 4 0 C 1.8 0 0 1.8 0 4 L 0 16 C 0 18.2 1.8 20 4 20 L 34 20 C 36.2 20 38 18.2 38 16 Z M 4 4 L 34 4 L 34 16 L 4 16 L 4 4 Z"></path>
+  <circle fill="#F44336" cx="33" cy="24" r="10"></circle>
+  <g transform="matrix(1, 0, 0, 1, -5, -14)">
+    <rect x="36.5" y="32" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 91.7401 38)" fill="#FFFFFF" width="3" height="12"></rect>
+    <rect x="36.5" y="32" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 38 91.7401)" fill="#FFFFFF" width="3" height="12"></rect>
+  </g>
+</svg>

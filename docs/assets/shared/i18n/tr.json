@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Parola sıfırlama bağlantısını göndermek için hesabınızla ilişkili bir e-posta belirtin",
+    "mobile-not-enabled": "Hesabınız Mobile Capture için etkin değil. Daha fazla bilgi için yöneticinize başvurun",
+    "ApplicationLoadFailure": "Uygulama başlatılamadı",
+    "confirm-password": "Şifreyi Onayla",
+    "confirm-password-placeholder": "Yeni şifrenizi onaylayın",
+    "InvalidLoginData": "Belirtilen kullanıcı adı ve parola ile oturum açılamadı",
+    "LicenseAgreement": "Lisans Sözleşmesi",
+    "MetaDataLoadFailure": "Veri Alanlarını yükleme izniniz yok",
+    "password": "Şifre",
+    "password-placeholder": "Yeni şifrenizi girin",
+    "Password": "Şifre",
+    "PasswordHelp": "Şifre yardımı",
+    "MobileRegistration": "Kayıt Ol",
+    "PrivacyPolicy": "Gizlilik Politikası",
+    "RequestingResetPassword": "Parola Sıfırlama İstenen",
+    "RequiredPass": "Şifre zorunludur",
+    "RequiredUserName": "Kullanıcı adı zorunludur",
+    "ResetHelp": "Şifrenizi sıfırlamanızı sağlayacak bir e-posta almak için kullanıcı adınızı girin",
+    "ResetPassword": "Parolayı sıfırla",
+    "ResetPasswordConfirmed": "Şifreniz güncellendi",
+    "ResetPasswordFailed": "Parola Sıfırlama Başarısız",
+    "ResetPasswordHelp": "Hesabınızı güncellemek için yeni bir şifre girin",
+    "ResetPasswordSucceeded": "Parola sıfırlama isteği başarılı oldu. Birkaç dakika içinde şifrenizi sıfırlamak için bağlantı içeren bir e-posta almalısınız. Not: bağlantı sadece 30 dakika için iyidir",
+    "ReturnToLogin": "Hesabınıza Giriş Yapın",
+    "SignAutomatically": "Otomatik Oturum Açma",
+    "SignIn": "Oturum Aç",
+    "Next": "Sonraki",
+    "Sign-In-Message": "Oturum açma...",
+    "Verify-Username-Message": "Kullanıcı adı doğrulanıyor...",
+    "Verify-Username-Failed": "Kullanıcı adı doğrulanamadı",
+    "UnauthorizedAccess": "Bu sisteme yetkisiz erişim kesinlikle yasaktır.",
+    "Username": "Kullanıcı Adı",
+    "passwords-donot-match": "Parolalar eşleşmiyor",
+    "mobile-registration-help": "E-posta adresinizi ve Yöneticiniz tarafından sağlanan kodu girin.",
+    "mobile-registration-email": "E-posta",
+    "mobile-registration-code": "Kodu",
+    "mobile-registration-email-placeholder": "E-posta adresinizi girin",
+    "mobile-registration-code-placeholder": "Yöneticiniz tarafından sağlanan kodu girin",
+    "mobile-register": "Kayıt Ol",
+    "mobile-registering": "Kaydoluyorum...",
+    "mobile-registration-pending": "Kayıt talebi başarılı oldu. Kayıt talebi onaylandıktan sonra, genellikle birkaç dakika içinde ayrıntıları içeren bir e-posta almalısınız.",
+    "mobile-registration-failed": "Kayıt isteği başarısız oldu",
+    "select-tenant": "Bir Kiracı Seç...",
+    "transferring-to-sso": "Tek Oturum Açma sağlayıcınıza gidin...",
+    "completing-login": "Oturum açma işlemi tamamlanıyor...",
+    "cannot-login-without-assigned-roles": "Herhangi bir Rol atanmadan oturum açamazsınız. Lütfen Sistem Yöneticinize bakın",
+    "cannot-login-without-workflow-permissions": "İş akışları numaralandırmak için izin olmadan oturum açamazsınız. Lütfen Sistem Yöneticinize bakın",
+    "cannot-login-without-metadata-permissions": "Veri Sözlüğü'ni numaralandırmak için izin almadan oturum açamazsınız. Lütfen Sistem Yöneticinize bakın",
+    "ResettingPassword": "Parola sıfırlanıyor...",
+    "sso-failure": "Tek Oturum Açma Tamamlanamadı",
+    "qrcode-failure": "QR Code kullanılarak oturum açılamadı"
+  },
+  "User": {
+    "LoadingUser": "Kullanıcı yükleniyor...",
+    "LoadingUserProducts": "Uygulamalar yükleniyor...",
+    "LoadingDashboard": "Gösterge paneli araçları yükleniyor...",
+    "LoadingDashboardSettings": "Gösterge tablosu ayarları yükleniyor...",
+    "LoadingMetaData": "Veri sözlüğü yükleniyor...",
+    "LoadingProfileDetails": "Profil detayları yükleniyor...",
+    "LoadingUserRoles": "Kullanıcı rolleri yükleniyor...",
+    "LoadingUserFeatures": "Kullanıcı özellikleri yükleniyor...",
+    "LoadingAppIntegrations": "Uygulama entegrasyonları yükleniyor..."
+  },
+  "fax-action": {
+    "title": "Faks Belgesi",
+    "label-faxnumber": "Faks Numarası",
+    "label-subject": "Konu",
+    "label-subject-hint": "Faks Konusu'nu Girin",
+    "label-message": "Mesaj",
+    "label-message-hint": "Kapak Sayfası Mesajını Girin",
+    "fax-number-required-error": "Faks numarası gereklidir",
+    "fax-number-start-with-plus": "Artı + işareti ile başlayan uluslararası bir faks numarası girmelisiniz."
+  },
+  "Common": {
+    "ok": "TAMAM",
+    "cancel": "İptal",
+    "Close": "Kapat",
+    "Loading": "Yükleniyor...",
+    "ShowPassword": "Parolayı Göster",
+    "HidePassword": "Şifreyi Gizle",
+    "Search": "Ara",
+    "FailedLoadListItems": "{fieldname} için liste öğeleri yüklenemedi",
+    "NoResult": "Sonuç Bulunamadı",
+    "noMatches": "Eşleşme Bulunamadı",
+    "From": "itibaren",
+    "To": "Kime",
+    "Clear": "Temiz",
+    "Calendar": {
+      "PreviousMonth": "Önceki Ay",
+      "NextMonth": "Gelecek Ay",
+      "Months": {
+        "January": "Ocak",
+        "February": "Şubat",
+        "March": "Mart",
+        "April": "Nisan",
+        "May": "Mayıs",
+        "June": "Haziran",
+        "July": "Temmuz",
+        "August": "Ağustos",
+        "September": "Eylül",
+        "October": "Ekim",
+        "November": "Kasım",
+        "December": "Aralık"
+      },
+      "WeekDays": {
+        "Sunday": "Pazar",
+        "Monday": "Pazartesi",
+        "Tuesday": "Salı",
+        "Wednesday": "Çarşamba",
+        "Thursday": "Perşembe",
+        "Friday": "Cuma",
+        "Saturday": "Cumartesi"
+      },
+      "WeekDaysShort": {
+        "Sun": "Güneş",
+        "Mon": "Pzt",
+        "Tue": "Sal",
+        "Wed": "Çrş",
+        "Thu": "Prş",
+        "Fri": "Cum",
+        "Sat": "Cts"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "İstemi varsayılanları yükleniyor...",
+    "overall-validity-invalid": "Lütfen geçerli değerler girin",
+    "waiting": "Bekliyorum..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Eşleşen değerler aranıyor...",
+    "loading-matching-values-error": "Eşleşen değerler ararken bir hata oluştu",
+    "lookup-modal-title": "Arama Alanı Araması",
+    "no-matches-found": "Eşleşme bulunamadı"
+  },
+  "MainHeader": {
+    "Cancel": "İptal",
+    "OK": "TAMAM"
+  },
+  "selection-component": {
+    "executing-action": "Eylem yürütme..."
+  },
+  "Pagination": {
+    "PerPage": "sayfa başına",
+    "Viewing": "Görüntüleme",
+    "Of": "dan",
+    "Found": "Buldum",
+    "Items": "öğeleri",
+    "Item": "öğe",
+    "Refresh": "Yenile",
+    "invalid-page-number": "Geçersiz sayfa numarası belirtildi"
+  },
+  "general": {
+    "date-modified": "Son Değiştirilme Tarihi",
+    "date-created": "Oluşturulma Tarihi",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "satır öğeleri",
+    "copy-to-clipboard": "Panoya Kopyala",
+    "copied-to-clipboard": "Panoya Kopyalandı",
+    "no": "Hayır",
+    "yes": "Evet",
+    "file-versions-available": "mevcut sürüm (ler)"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TİFF",
+    "delivery-format-s-tif": "TIFF (Resim, Tek Sayfa)",
+    "delivery-format-s-jpg": "JPG (Resim, Tek Sayfa)",
+    "delivery-format-ocr-pdf": "PDF (Resim+Metin)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "txt",
+    "delivery-format-ocr-doc": "belge",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF / Bir",
+    "delivery-format-arc-ocr-pdf": "PDF/A (Görüntü+Metin)",
+    "delivery-format-arc-txt-pdf": "PDF/A (Metin)",
+    "delivery-format-txt-pdf": "PDF (Metin)",
+    "delivery-format": "Teslimat Formatı",
+    "delivery-format-placeholder": "Teslimat Formatı Seç"
+  },
+  "fields": {
+    "substitutable": "Bu alanlar Veri Alanı Değiştirme özelliğini destekler",
+    "items-load-failed": "Öğeler yüklenemedi.",
+    "datafield-not-exist": "Data Field diye bir şey yok.",
+    "loading-cascading-options": "Seçenekler yükleniyor...",
+    "save-indexing-values-failed": "Dizin oluşturma değerleri kaydedilemedi.",
+    "all-dates": "(Tüm Tarihler)",
+    "select-date-range": "Tarih Aralığı Seç"
+  },
+  "success-dialog": {
+    "autoClose": "Otomatik kapanış ",
+    "ok": "TAMAM"
+  },
+  "error-dialog": {
+    "autoClose": "Otomatik kapanış ",
+    "close": "Kapat"
+  }
+}

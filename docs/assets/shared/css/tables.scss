@@ -1,0 +1,159 @@
+@import './../../assets/css/variables';
+
+.action-menu-wrapper {
+  overflow: visible !important;
+  padding: 0 !important;
+
+  action-dropdown {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.k-grid {
+  border: none;
+  border-top: solid 1px $gray-10;
+
+  a {
+    color: $upland-blue;
+  }
+
+  .k-plus {
+    display: none;
+  }
+
+  .k-minus {
+    display: none;
+  }
+
+  .k-hierarchy-col {
+    width: 0px;
+  }
+
+  .k-hierarchy-cell > .k-icon {
+    display: none;
+  }
+
+  td {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+
+  ::selection {
+    background-color: #3399ff;
+  }
+}
+
+.grid-action-panel {
+  line-height: 1.5;
+}
+
+table div span.block a {
+  cursor: pointer;
+  color: $upland-blue !important;
+}
+
+kendo-grid {
+  tr {
+    background: white;
+
+    &.k-detail-row {
+      &:hover {
+        background: white !important;
+      }
+    }
+  }
+
+  th {
+    &:hover {
+      background: rgb(243, 242, 241);
+    }
+  }
+
+  td,
+  th {
+    height: 38px;
+  }
+
+  th {
+    background: #fafafa;
+  }
+
+  td {
+    border-bottom: 1px solid transparent;
+  }
+
+  .selected-row {
+    td {
+      border-bottom-color: white;
+    }
+  }
+
+  .checkbox label span:after {
+    left: 5px !important;
+    top: 2px !important;
+  }
+}
+
+.k-grid tr.k-alt {
+  background: white;
+
+  &:hover {
+    background: rgb(243, 242, 241);
+  }
+}
+
+.k-grid tbody tr:hover,
+.k-grid tbody tr.k-state-hover {
+  background: rgb(243, 242, 241);
+}
+
+.checkbox-and-details-container {
+  height: 21px;
+}
+
+.only-expand-icon {
+  margin-inline-start: 27px;
+  margin-top: 4px;
+}
+
+.k-grid-header,
+.k-header,
+th.k-header,
+.k-grid-header-wrap,
+.k-grouping-header,
+.k-grouping-header .k-group-indicator,
+.k-grid-footer,
+.k-grid-footer-wrap,
+.k-grid-content-locked,
+.k-grid-footer-locked,
+.k-grid-header-locked,
+.k-grid td,
+.k-filter-row > td,
+.k-filter-row > th {
+  border-color: transparent;
+}
+
+.k-grid td,
+.k-grid-header {
+  border-bottom: 1px solid $gray-10 !important;
+}
+
+.k-grid-header {
+  padding: 0 !important;
+}
+
+.selected-row {
+  background: rgb(237, 235, 233) !important;
+}
+
+.k-grid tbody tr.selected-row:hover,
+.k-grid tbody tr.selected-row.k-state-hover {
+  background: rgb(225, 223, 221) !important;
+}
+
+.k-grid-content tr:last-child > td,
+.k-grid-content-locked tr:last-child > td {
+  border-bottom-width: 1px;
+  border-bottom-color: transparent;
+}

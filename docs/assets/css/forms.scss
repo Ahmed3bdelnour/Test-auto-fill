@@ -1,0 +1,206 @@
+@import './../../../../../Bamba.Shared/src/assets/css/variables';
+
+/*----------------------
+  Forms Style
+------------------------*/
+app-field {
+  width: 100%;
+}
+
+input[type='checkbox'] {
+  vertical-align: middle;
+  margin-right: 3px !important;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  padding: 2px 8px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: none;
+  color: #767676;
+  box-shadow: none;
+}
+
+.form-input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.form-input:hover,
+.form-input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/*checkbox-style*/
+.checkbox .check-label {
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+
+.checkbox .check-label input {
+  display: none;
+}
+
+//Keep same css for rtl and ltr in checkbox for proper checkbox orientation
+.checkbox .check-label span {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #cfcfcf;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  /*display: inline-block;*/
+  position: relative;
+  margin-right: 10px;
+  top: 3px;
+  float: left;
+  background-color: #ffffff;
+  color: $upland-blue;
+  box-shadow: inset 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+//Keep same css for rtl and ltr in checkbox for proper checkbox orientation
+.checkbox label span:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 1.5%;
+  width: 4px;
+  height: 9px;
+  border-bottom: 2px solid #559114;
+  border-right: 2px solid #559114;
+  opacity: 0;
+  -webkit-transform: rotate(45deg) scale(0);
+  -moz-transform: rotate(45deg) scale(0);
+  -ms-transform: rotate(45deg) scale(0);
+  -o-transform: rotate(45deg) scale(0);
+  transform: rotate(45deg) scale(0);
+}
+//Keep same css for rtl and ltr in checkbox for proper checkbox orientation
+.checkbox input[type='checkbox']:checked + span:after {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) scale(1);
+  -moz-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  -o-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+}
+/*checkbox-style-end*/
+
+/* Styles for expense report details forms*/
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-group textarea {
+  height: 85px;
+}
+
+.form-group label,
+.input-group__addon {
+  color: #767676;
+}
+
+.form-group.total label {
+  color: #181818;
+  font-weight: 600;
+}
+
+.form-group.total input {
+  color: #238139;
+  font-weight: 600;
+}
+
+/*--------*/
+
+option:disabled,
+option[disabled] {
+  color: #dd0000;
+}
+
+.input-cont {
+  &.input-fax-to,
+  &.input-file-to {
+    height: 72px;
+
+    .input-group {
+      height: 50px;
+      margin-top: -8px;
+      width: 100%;
+
+      .form-input {
+        border: none !important;
+        height: 40.19px;
+
+        div.ng2-tags-container {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .dropdown {
+    width: 100%;
+
+    button {
+      border: none;
+      width: 100%;
+      height: 30px;
+
+      &.btn {
+        text-align: left !important;
+        padding-left: 0px;
+        color: #6e6e6e;
+        font-weight: bold;
+      }
+
+      .dd-val {
+        text-align: left;
+        font-size: 18px;
+        color: #6e6e6e;
+        font-weight: bold;
+      }
+    }
+
+    button:hover,
+    button:active,
+    button:focus {
+      border: none;
+    }
+  }
+}
+
+/*.no-padding {
+      padding: 0 !important;
+    }*/
+.ng2-tag-input.ng2-tag-input--focused,
+.ng2-tag-input {
+  border: none;
+}
+
+tag {
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #336fce;
+  font-size: 12px;
+}
+
+.rtl {
+  .checkbox .check-label span {
+    margin-right: initial;
+    margin-left: 10px;
+  }
+
+  .dropdown {
+    button {
+      &.btn {
+        text-align: right !important;
+      }
+    }
+  }
+}

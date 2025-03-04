@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Angiv en e-mail, der er knyttet til din konto for at sende linket til nulstilling af adgangskoden til",
+    "mobile-not-enabled": "Din konto er ikke aktiveret for Mobile Capture. Kontakt din administrator for at få flere oplysninger",
+    "ApplicationLoadFailure": "Programmet kunne ikke initialisere",
+    "confirm-password": "Bekræft adgangskode",
+    "confirm-password-placeholder": "Bekræft din nye adgangskode",
+    "InvalidLoginData": "Kunne ikke logge ind med angivet brugernavn og adgangskode",
+    "LicenseAgreement": "Licensaftale",
+    "MetaDataLoadFailure": "Du har ikke tilladelse til at indlæse datafelter",
+    "password": "Adgangskode",
+    "password-placeholder": "Indtast din nye adgangskode",
+    "Password": "Adgangskode",
+    "PasswordHelp": "Hjælp til adgangskode",
+    "MobileRegistration": "Tilmeld",
+    "PrivacyPolicy": "Privatlivspolitik",
+    "RequestingResetPassword": "Anmodning om nulstilling af adgangskode",
+    "RequiredPass": "Adgangskode er påkrævet",
+    "RequiredUserName": "Brugernavn er påkrævet",
+    "ResetHelp": "Indtast dit brugernavn for at modtage en e-mail, der giver dig mulighed for at nulstille din adgangskode",
+    "ResetPassword": "Nulstil adgangskode",
+    "ResetPasswordConfirmed": "Din adgangskode er blevet opdateret",
+    "ResetPasswordFailed": "Nulstilling af adgangskode",
+    "ResetPasswordHelp": "Indtast en ny adgangskode for at opdatere din konto",
+    "ResetPasswordSucceeded": "Anmodningen om nulstilling af adgangskode lykkedes. Du skal modtage en e-mail med et link for at nulstille din adgangskode om et par minutter. Bemærk: linket er kun godt i 30 minutter",
+    "ReturnToLogin": "Log ind på din konto",
+    "SignAutomatically": "Log ind automatisk",
+    "SignIn": "Log ind",
+    "Next": "Næste",
+    "Sign-In-Message": "Log ind...",
+    "Verify-Username-Message": "Verificerer brugernavn...",
+    "Verify-Username-Failed": "Kunne ikke bekræfte brugernavn",
+    "UnauthorizedAccess": "Uautoriseret adgang til dette system er strengt forbudt.",
+    "Username": "Brugernavn",
+    "passwords-donot-match": "Adgangskoder stemmer ikke overens",
+    "mobile-registration-help": "Indtast din e-mailadresse og den kode, som din administrator har leveret.",
+    "mobile-registration-email": "E-mail",
+    "mobile-registration-code": "Kode",
+    "mobile-registration-email-placeholder": "Indtast din e-mailadresse",
+    "mobile-registration-code-placeholder": "Indtast den kode, der leveres af din administrator",
+    "mobile-register": "Tilmeld",
+    "mobile-registering": "Registrering af...",
+    "mobile-registration-pending": "Registreringsanmodningen lykkedes. Du skal modtage en e-mail med oplysninger, når registreringsanmodningen er blevet godkendt, normalt om et par minutter.",
+    "mobile-registration-failed": "Registreringsanmodning mislykkedes",
+    "select-tenant": "Vælg en lejer...",
+    "transferring-to-sso": "Navigere til din Single Sign On udbyder...",
+    "completing-login": "Fuldfører login...",
+    "cannot-login-without-assigned-roles": "Du må ikke logge ind uden nogen roller tildelt. Se venligst din systemadministrator",
+    "cannot-login-without-workflow-permissions": "Du må ikke logge ind uden tilladelse til at opregne arbejdsgange. Se venligst din systemadministrator",
+    "cannot-login-without-metadata-permissions": "Du må ikke logge ind uden tilladelse til at opregne Data Dictionary. Se venligst din systemadministrator",
+    "ResettingPassword": "Nulstilling af adgangskode...",
+    "sso-failure": "Det lykkedes ikke at fuldføre Single Sign On",
+    "qrcode-failure": "Kunne ikke logge ind ved hjælp af QR-kode"
+  },
+  "User": {
+    "LoadingUser": "Indlæser bruger...",
+    "LoadingUserProducts": "Indlæser programmer...",
+    "LoadingDashboard": "Indlæser dashboard gadgets...",
+    "LoadingDashboardSettings": "Indlæser dashboard indstillinger...",
+    "LoadingMetaData": "Indlæser data-ordbog...",
+    "LoadingProfileDetails": "Indlæser profiloplysninger...",
+    "LoadingUserRoles": "Indlæser brugerroller...",
+    "LoadingUserFeatures": "Indlæser brugerfunktioner...",
+    "LoadingAppIntegrations": "Indlæser programintegrationer..."
+  },
+  "fax-action": {
+    "title": "Faxdokument",
+    "label-faxnumber": "Faxnummer",
+    "label-subject": "Emne",
+    "label-subject-hint": "Indtast faxemnet",
+    "label-message": "Meddelelse",
+    "label-message-hint": "Indtast Coverpage Besked",
+    "fax-number-required-error": "Faxnummer er påkrævet",
+    "fax-number-start-with-plus": "Du skal indtaste et internationalt faxnummer, begyndende med et plu+-tegn."
+  },
+  "Common": {
+    "ok": "Okay",
+    "cancel": "annullere",
+    "Close": "Luk",
+    "Loading": "Indlæser...",
+    "ShowPassword": "Vis adgangskode",
+    "HidePassword": "Skjul adgangskode",
+    "Search": "Søg",
+    "FailedLoadListItems": "Det lykkedes ikke at indlæse listeelementer for {fieldname}",
+    "NoResult": "Ingen resultater fundet",
+    "noMatches": "Ingen kampe fundet",
+    "From": "Fra",
+    "To": "Til",
+    "Clear": "Klar",
+    "Calendar": {
+      "PreviousMonth": "Forrige måned",
+      "NextMonth": "Næste måned",
+      "Months": {
+        "January": "januar",
+        "February": "februar",
+        "March": "marts",
+        "April": "April",
+        "May": "maj",
+        "June": "juni",
+        "July": "juli",
+        "August": "august",
+        "September": "september",
+        "October": "oktober",
+        "November": "november",
+        "December": "december"
+      },
+      "WeekDays": {
+        "Sunday": "Søndag",
+        "Monday": "Mandag",
+        "Tuesday": "Tirsdag",
+        "Wednesday": "onsdag",
+        "Thursday": "Torsdag",
+        "Friday": "Fredag",
+        "Saturday": "lørdag"
+      },
+      "WeekDaysShort": {
+        "Sun": "Solen",
+        "Mon": "Man",
+        "Tue": "tir",
+        "Wed": "Ons",
+        "Thu": "Torsdag",
+        "Fri": "fre",
+        "Sat": "lør"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "Indlæser prompt standardindstillinger...",
+    "overall-validity-invalid": "Indtast gyldige værdier",
+    "waiting": "Venter..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Leder du efter matchende værdier...",
+    "loading-matching-values-error": "Der opstod en fejl under søgt efter matchende værdier",
+    "lookup-modal-title": "Søg efter søgning efter søgning",
+    "no-matches-found": "Ingen kampe fundet"
+  },
+  "MainHeader": {
+    "Cancel": "annullere",
+    "OK": "Okay"
+  },
+  "selection-component": {
+    "executing-action": "Udfører handling..."
+  },
+  "Pagination": {
+    "PerPage": "pr. side",
+    "Viewing": "Visning",
+    "Of": "af",
+    "Found": "Fundet",
+    "Items": "elementer",
+    "Item": "vare",
+    "Refresh": "Opdater",
+    "invalid-page-number": "Ugyldigt sidenummer angivet"
+  },
+  "general": {
+    "date-modified": "Dato for seneste ændring",
+    "date-created": "Dato oprettet",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "line poster",
+    "copy-to-clipboard": "Kopier til Udklipsholder",
+    "copied-to-clipboard": "Kopieret til Udklipsholder",
+    "no": "Nej",
+    "yes": "Ja",
+    "file-versions-available": "version (er) tilgængelig"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (billede, enkelt side)",
+    "delivery-format-s-jpg": "JPG (Billede, Enkelt Side)",
+    "delivery-format-ocr-pdf": "PDF (Billede+Tekst)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "TXT",
+    "delivery-format-ocr-doc": "DOK",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF / A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (billede+tekst)",
+    "delivery-format-arc-txt-pdf": "PDF/A (Tekst)",
+    "delivery-format-txt-pdf": "PDF (Tekst)",
+    "delivery-format": "Levering Format",
+    "delivery-format-placeholder": "Vælg Leveringsformat"
+  },
+  "fields": {
+    "substitutable": "Disse felter understøtter datafelt Substitution",
+    "items-load-failed": "Det lykkedes ikke at indlæse elementer.",
+    "datafield-not-exist": "Datafelt findes ikke.",
+    "loading-cascading-options": "Indlæser indstillinger...",
+    "save-indexing-values-failed": "Det lykkedes ikke at gemme indekseringsværdier.",
+    "all-dates": "(Alle datoer)",
+    "select-date-range": "Vælg datointerval"
+  },
+  "success-dialog": {
+    "autoClose": "Automatisk luk ind ",
+    "ok": "Okay"
+  },
+  "error-dialog": {
+    "autoClose": "Automatisk luk ind ",
+    "close": "Luk"
+  }
+}

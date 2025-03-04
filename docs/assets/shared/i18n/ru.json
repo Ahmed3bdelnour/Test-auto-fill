@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Укажите адрес электронной почты, связанный с вашей учетной записью, чтобы отправить ссылку для сброса пароля",
+    "mobile-not-enabled": "Ваша учетная запись не включена для захвата мобильных устройств. Обратитесь к администратору для получения дополнительной информации",
+    "ApplicationLoadFailure": "Не удалось инициализировать приложение",
+    "confirm-password": "Подтвердите пароль",
+    "confirm-password-placeholder": "Подтвердите новый пароль",
+    "InvalidLoginData": "Не удалось войти в систему с указанным именем пользователя и паролем",
+    "LicenseAgreement": "лицензионное соглашение",
+    "MetaDataLoadFailure": "У вас нет разрешения на загрузку полей данных",
+    "password": "Пароль",
+    "password-placeholder": "Введите новый пароль",
+    "Password": "Пароль",
+    "PasswordHelp": "Помощь по паролю",
+    "MobileRegistration": "Зарегистрироваться",
+    "PrivacyPolicy": "Политика конфиденциальности",
+    "RequestingResetPassword": "Запрос на сброс пароля",
+    "RequiredPass": "Требуется пароль",
+    "RequiredUserName": "Требуется имя пользователя",
+    "ResetHelp": "Введите свое имя пользователя, чтобы получить электронное письмо, которое позволит вам сбросить пароль",
+    "ResetPassword": "Сбросить пароль",
+    "ResetPasswordConfirmed": "Ваш пароль был обновлен",
+    "ResetPasswordFailed": "Сбой сброса пароля",
+    "ResetPasswordHelp": "Введите новый пароль для обновления учетной записи",
+    "ResetPasswordSucceeded": "Запрос на сброс пароля выполнен успешно. Через несколько минут вы получите электронное письмо со ссылкой для сброса пароля. Примечание: ссылка действительна только в течение 30 минут",
+    "ReturnToLogin": "Войдите в свой аккаунт",
+    "SignAutomatically": "Автоматически войти",
+    "SignIn": "Войти",
+    "Next": "Следующий",
+    "Sign-In-Message": "Вход в систему...",
+    "Verify-Username-Message": "Проверка имени пользователя...",
+    "Verify-Username-Failed": "Не удалось подтвердить имя пользователя",
+    "UnauthorizedAccess": "Несанкционированный доступ к этой системе строго запрещен.",
+    "Username": "имя пользователя",
+    "passwords-donot-match": "Пароли не совпадают",
+    "mobile-registration-help": "Введите адрес электронной почты и код, предоставленный администратором.",
+    "mobile-registration-email": "Электронная почта",
+    "mobile-registration-code": "код",
+    "mobile-registration-email-placeholder": "Введите свой адрес электронной почты",
+    "mobile-registration-code-placeholder": "Введите код, предоставленный администратором",
+    "mobile-register": "Зарегистрироваться",
+    "mobile-registering": "Регистрация...",
+    "mobile-registration-pending": "Запрос на регистрацию выполнен успешно. Как только запрос на регистрацию будет одобрен, вы получите электронное письмо с подробной информацией, как правило, в течение нескольких минут.",
+    "mobile-registration-failed": "Запрос на регистрацию не удался",
+    "select-tenant": "Выберите арендатора...",
+    "transferring-to-sso": "Переход к поставщику услуг единого входа...",
+    "completing-login": "Завершение входа в систему...",
+    "cannot-login-without-assigned-roles": "Вы не можете войти в систему без назначения ролей. Обратитесь к системному администратору",
+    "cannot-login-without-workflow-permissions": "Вы не можете войти в систему без разрешения на перечисление рабочих процессов. Обратитесь к системному администратору",
+    "cannot-login-without-metadata-permissions": "Вы не можете войти в систему без разрешения на перечисление словаря данных. Обратитесь к системному администратору",
+    "ResettingPassword": "Сброс пароля...",
+    "sso-failure": "Не удалось выполнить единый вход",
+    "qrcode-failure": "Не удалось войти с использованием QR-кода"
+  },
+  "User": {
+    "LoadingUser": "Загрузка пользователя...",
+    "LoadingUserProducts": "Загрузка приложений...",
+    "LoadingDashboard": "Загрузка гаджетов панели управления...",
+    "LoadingDashboardSettings": "Загрузка настроек панели управления...",
+    "LoadingMetaData": "Загрузка словаря данных...",
+    "LoadingProfileDetails": "Загрузка сведений профиля...",
+    "LoadingUserRoles": "Загрузка ролей пользователей...",
+    "LoadingUserFeatures": "Загрузка пользовательских функций...",
+    "LoadingAppIntegrations": "Загрузка интеграции приложений..."
+  },
+  "fax-action": {
+    "title": "Документ факса",
+    "label-faxnumber": "Номер факса",
+    "label-subject": "Тема",
+    "label-subject-hint": "Введите тему факса",
+    "label-message": "сообщение",
+    "label-message-hint": "Введите сообщение на титульной странице",
+    "fax-number-required-error": "Требуется номер факса",
+    "fax-number-start-with-plus": "Необходимо ввести международный номер факса, начиная со знака плюс +."
+  },
+  "Common": {
+    "ok": "ХОРОШО",
+    "cancel": "Отмена",
+    "Close": "Закрыть",
+    "Loading": "Загрузка...",
+    "ShowPassword": "Показать пароль",
+    "HidePassword": "Скрыть пароль",
+    "Search": "Поиск",
+    "FailedLoadListItems": "Не удалось загрузить элементы списка для {fieldname}",
+    "NoResult": "Результаты не найдены",
+    "noMatches": "Совпадений не найдено",
+    "From": "От",
+    "To": "Кому",
+    "Clear": "Чисто",
+    "Calendar": {
+      "PreviousMonth": "предыдущий месяц",
+      "NextMonth": "В следующем месяце",
+      "Months": {
+        "January": "январь",
+        "February": "Февраль",
+        "March": "марш",
+        "April": "апрель",
+        "May": "май",
+        "June": "Июнь",
+        "July": "Июль",
+        "August": "август",
+        "September": "сентябрь",
+        "October": "Октябрь",
+        "November": "ноябрь",
+        "December": "Декабрь"
+      },
+      "WeekDays": {
+        "Sunday": "Воскресенье",
+        "Monday": "понедельник",
+        "Tuesday": "вторник",
+        "Wednesday": "Среда",
+        "Thursday": "Четверг",
+        "Friday": "пятница",
+        "Saturday": "суббота"
+      },
+      "WeekDaysShort": {
+        "Sun": "Солнце",
+        "Mon": "Понедельник",
+        "Tue": "Вт",
+        "Wed": "Ср",
+        "Thu": "Чт",
+        "Fri": "пт",
+        "Sat": "Сат"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "Загрузка настроек по умолчанию для запроса...",
+    "overall-validity-invalid": "Пожалуйста, введите допустимые значения",
+    "waiting": "Ожидание..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Поиск совпадающих значений...",
+    "loading-matching-values-error": "Произошла ошибка при поиске совпадающих значений",
+    "lookup-modal-title": "Поиск поля поиска",
+    "no-matches-found": "Совпадений не найдено"
+  },
+  "MainHeader": {
+    "Cancel": "Отмена",
+    "OK": "ХОРОШО"
+  },
+  "selection-component": {
+    "executing-action": "Выполнение действия..."
+  },
+  "Pagination": {
+    "PerPage": "за страницу",
+    "Viewing": "Просмотр",
+    "Of": "из",
+    "Found": "Найденные",
+    "Items": "предметы",
+    "Item": "пункт",
+    "Refresh": "Обновить",
+    "invalid-page-number": "Указан недопустимый номер страницы"
+  },
+  "general": {
+    "date-modified": "Дата последнего изменения",
+    "date-created": "Дата создания",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "позиции",
+    "copy-to-clipboard": "Копировать в буфер обмена",
+    "copied-to-clipboard": "Скопировано в буфер обмена",
+    "no": "Нет",
+    "yes": "Да",
+    "file-versions-available": "доступная версия (ы)"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "ТИФ",
+    "delivery-format-s-tif": "TIFF (изображение, одна страница)",
+    "delivery-format-s-jpg": "JPG (изображение, одна страница)",
+    "delivery-format-ocr-pdf": "PDF (изображение+текст)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "текст",
+    "delivery-format-ocr-doc": "ДОК",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "ПДФ/А",
+    "delivery-format-arc-ocr-pdf": "PDF/A (изображение+текст)",
+    "delivery-format-arc-txt-pdf": "PDF/A (текст)",
+    "delivery-format-txt-pdf": "PDF (текст)",
+    "delivery-format": "Формат доставки",
+    "delivery-format-placeholder": "Выберите формат доставки"
+  },
+  "fields": {
+    "substitutable": "Эти поля поддерживают замену полей данных",
+    "items-load-failed": "Не удалось загрузить номенклатуры.",
+    "datafield-not-exist": "Поле данных не существует.",
+    "loading-cascading-options": "Опции загрузки...",
+    "save-indexing-values-failed": "Не удалось сохранить значения индексации.",
+    "all-dates": "(Все даты)",
+    "select-date-range": "Выберите диапазон дат"
+  },
+  "success-dialog": {
+    "autoClose": "Автоматическое закрытие ",
+    "ok": "ХОРОШО"
+  },
+  "error-dialog": {
+    "autoClose": "Автоматическое закрытие ",
+    "close": "Закрыть"
+  }
+}

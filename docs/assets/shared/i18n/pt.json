@@ -1,0 +1,202 @@
+{
+  "Login": {
+    "Email": "Especifique um e-mail associado à sua conta para enviar o link de redefinição de senha",
+    "mobile-not-enabled": "Sua conta não está habilitada para o Mobile Capture. Entre em contato com o administrador para obter mais informações",
+    "ApplicationLoadFailure": "O aplicativo falhou ao inicializar",
+    "confirm-password": "Confirmar senha",
+    "confirm-password-placeholder": "Confirme sua nova senha",
+    "InvalidLoginData": "Falha ao fazer login com nome de usuário e senha especificados",
+    "LicenseAgreement": "Contrato de licença",
+    "MetaDataLoadFailure": "Você não tem permissão para carregar campos de dados",
+    "password": "Senha",
+    "password-placeholder": "Digite sua nova senha",
+    "Password": "Senha",
+    "PasswordHelp": "Ajuda com senha",
+    "MobileRegistration": "Registre-se",
+    "PrivacyPolicy": "Política de privacidade",
+    "RequestingResetPassword": "Solicitando redefinição de senha",
+    "RequiredPass": "A senha é obrigatória",
+    "RequiredUserName": "O nome de usuário é obrigatório",
+    "ResetHelp": "Digite seu nome de usuário para receber um e-mail que permitirá que você redefina sua senha",
+    "ResetPassword": "Redefinir senha",
+    "ResetPasswordConfirmed": "Sua senha foi atualizada",
+    "ResetPasswordFailed": "Falha na redefinição",
+    "ResetPasswordHelp": "Digite uma nova senha para atualizar sua conta",
+    "ResetPasswordSucceeded": "A solicitação de redefinição de senha foi bem-sucedida. Você deve receber um e-mail com um link para redefinir sua senha em alguns minutos. Nota: o link só é bom por 30 minutos",
+    "ReturnToLogin": "Faça login na sua conta",
+    "SignAutomatically": "Faça login automaticamente",
+    "SignIn": "Entrar",
+    "Next": "Próximo",
+    "Sign-In-Message": "Entrando...",
+    "Verify-Username-Message": "Verificando o nome de usuário...",
+    "Verify-Username-Failed": "Falha ao verificar o nome de usuário",
+    "UnauthorizedAccess": "O acesso não autorizado a este sistema é estritamente proibido.",
+    "Username": "nome de usuário",
+    "passwords-donot-match": "As senhas não correspondem",
+    "mobile-registration-help": "Digite seu endereço de e-mail e o código fornecido pelo administrador.",
+    "mobile-registration-email": "E-mail",
+    "mobile-registration-code": "Código",
+    "mobile-registration-email-placeholder": "Digite seu endereço de e-mail",
+    "mobile-registration-code-placeholder": "Insira o código fornecido pelo administrador",
+    "mobile-register": "Registre-se",
+    "mobile-registering": "Registrando...",
+    "mobile-registration-pending": "A solicitação de registro foi bem-sucedida. Você deve receber um e-mail com detalhes assim que a solicitação de registro for aprovada, geralmente em alguns minutos.",
+    "mobile-registration-failed": "Falha na solicitação de",
+    "select-tenant": "Selecione um inquilino...",
+    "transferring-to-sso": "Navegando até o provedor de logon único...",
+    "completing-login": "Concluindo login...",
+    "cannot-login-without-assigned-roles": "Você não pode fazer login sem nenhuma função atribuída. Consulte o administrador do sistema",
+    "cannot-login-without-workflow-permissions": "Você não pode fazer login sem permissão para enumerar os fluxos de trabalho. Consulte o administrador do sistema",
+    "cannot-login-without-metadata-permissions": "Você não pode fazer login sem permissão para enumerar o Dicionário de Dados. Consulte o administrador do sistema",
+    "ResettingPassword": "Redefinindo a senha...",
+    "sso-failure": "Falha ao concluir o logon único",
+    "qrcode-failure": "Falha ao fazer login usando o QR Code"
+  },
+  "User": {
+    "LoadingUser": "Carregando usuário...",
+    "LoadingUserProducts": "Carregando aplicativos...",
+    "LoadingDashboard": "Carregando gadgets do painel...",
+    "LoadingDashboardSettings": "Carregando as configurações do painel...",
+    "LoadingMetaData": "Carregando dicionário de dados...",
+    "LoadingProfileDetails": "Carregando detalhes do perfil...",
+    "LoadingUserRoles": "Carregando funções de usuário...",
+    "LoadingUserFeatures": "Carregando recursos do usuário...",
+    "LoadingAppIntegrations": "Carregando integrações de aplicativos..."
+  },
+  "fax-action": {
+    "title": "Documento de fax",
+    "label-faxnumber": "Número de fax",
+    "label-subject": "Assunto",
+    "label-subject-hint": "Digite o assunto do fax",
+    "label-message": "Mensagem",
+    "label-message-hint": "Digite a mensagem da página de cobertura",
+    "fax-number-required-error": "O número de fax é obrigatório",
+    "fax-number-start-with-plus": "Você deve inserir um número de fax internacional, começando com um sinal de mais +."
+  },
+  "Common": {
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "Close": "Fechar",
+    "Loading": "Carregando...",
+    "ShowPassword": "Mostrar senha",
+    "HidePassword": "Ocultar senha",
+    "Search": "Pesquisar",
+    "FailedLoadListItems": "Falha ao carregar itens da lista para {fieldname}",
+    "NoResult": "Nenhum resultado encontrado",
+    "noMatches": "Nenhuma correspondência encontrada",
+    "From": "De",
+    "To": "Para",
+    "Clear": "Claro",
+    "Calendar": {
+      "PreviousMonth": "Mês anterior",
+      "NextMonth": "Próximo mês",
+      "Months": {
+        "January": "janeiro",
+        "February": "fevereiro",
+        "March": "Março",
+        "April": "abril",
+        "May": "Maio",
+        "June": "Junho",
+        "July": "Julho",
+        "August": "agosto",
+        "September": "setembro",
+        "October": "Outubro",
+        "November": "novembro",
+        "December": "dezembro"
+      },
+      "WeekDays": {
+        "Sunday": "domingo",
+        "Monday": "Segunda-feira",
+        "Tuesday": "terça",
+        "Wednesday": "Quarta-feira",
+        "Thursday": "Quinta-feira",
+        "Friday": "Sexta-feira",
+        "Saturday": "sábado"
+      },
+      "WeekDaysShort": {
+        "Sun": "Sol",
+        "Mon": "seg",
+        "Tue": "Ter",
+        "Wed": "qua",
+        "Thu": "Qui",
+        "Fri": "sex",
+        "Sat": "Sentou"
+      }
+    }
+  },
+  "workflow-indexing-panel": {
+    "loading-defaults": "Carregando padrões de prompt...",
+    "overall-validity-invalid": "Insira valores válidos",
+    "waiting": "Esperando..."
+  },
+  "admin-metadata-lookup": {
+    "loading-matching-values": "Procurando valores correspondentes...",
+    "loading-matching-values-error": "Ocorreu um erro ao procurar valores correspondentes",
+    "lookup-modal-title": "Pesquisa de campo de pesquisa",
+    "no-matches-found": "Nenhuma correspondência encontrada"
+  },
+  "MainHeader": {
+    "Cancel": "Cancelar",
+    "OK": "OK"
+  },
+  "selection-component": {
+    "executing-action": "Executando ação..."
+  },
+  "Pagination": {
+    "PerPage": "por página",
+    "Viewing": "Visualizando",
+    "Of": "do",
+    "Found": "Encontrado",
+    "Items": "itens",
+    "Item": "item",
+    "Refresh": "Atualizar",
+    "invalid-page-number": "Número de página inválido especificado"
+  },
+  "general": {
+    "date-modified": "Data da última modificação",
+    "date-created": "Data de criação",
+    "date-not-applicable": "(n/a)",
+    "line-items-row-count": "itens de linha",
+    "copy-to-clipboard": "Copiar para a área de transferência",
+    "copied-to-clipboard": "Copiado para a área de transferência",
+    "no": "Não",
+    "yes": "sim",
+    "file-versions-available": "versão (s) disponível (is)"
+  },
+  "workflow-step": {
+    "delivery-format-pdf": "PDF",
+    "delivery-format-tif": "TIFF",
+    "delivery-format-s-tif": "TIFF (Imagem, página única)",
+    "delivery-format-s-jpg": "JPG (Imagem, página única)",
+    "delivery-format-ocr-pdf": "PDF (imagem+texto)",
+    "delivery-format-ocr-rtf": "RTF",
+    "delivery-format-ocr-txt": "TXT",
+    "delivery-format-ocr-doc": "DOC",
+    "delivery-format-ocr-docx": "DOCX",
+    "delivery-format-ocr-xls": "XLS",
+    "delivery-format-ocr-xlsx": "XLSX",
+    "delivery-format-arc-pdf": "PDF / A",
+    "delivery-format-arc-ocr-pdf": "PDF/A (imagem+texto)",
+    "delivery-format-arc-txt-pdf": "PDF/A (texto)",
+    "delivery-format-txt-pdf": "PDF (texto)",
+    "delivery-format": "Formato de entrega",
+    "delivery-format-placeholder": "Selecione o formato de entrega"
+  },
+  "fields": {
+    "substitutable": "Esses campos são compatíveis com a substituição do campo de dados",
+    "items-load-failed": "Falha ao carregar itens.",
+    "datafield-not-exist": "O campo de dados não existe.",
+    "loading-cascading-options": "Opções de carregamento...",
+    "save-indexing-values-failed": "Falha ao salvar os valores de indexação.",
+    "all-dates": "(Todas as datas)",
+    "select-date-range": "Selecione o intervalo de datas"
+  },
+  "success-dialog": {
+    "autoClose": "Fechamento automático ",
+    "ok": "OK"
+  },
+  "error-dialog": {
+    "autoClose": "Fechamento automático ",
+    "close": "Fechar"
+  }
+}

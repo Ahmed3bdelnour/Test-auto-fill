@@ -7004,7 +7004,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   StepDocumentStampComponent: () => (/* binding */ StepDocumentStampComponent)
 /* harmony export */ });
-/* harmony import */ var C_work_test_auto_fill_Bamba_Web_ClientApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 56207);
+/* harmony import */ var C_work_upland_bamba_CORE21_NG_1_Bamba_Web_ClientApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 56207);
 /* harmony import */ var shared_code_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shared-code-lib */ 47989);
 /* harmony import */ var _blocks_components_html_editor_html_editor_toolbar_editor_toolbar_constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../blocks/components/html-editor/html-editor-toolbar/editor-toolbar-constants */ 2853);
 /* harmony import */ var _blocks_core_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../blocks/core/actions */ 75414);
@@ -7649,7 +7649,7 @@ class StepDocumentStampComponent {
       this.currentlySelectedTab = Number(tab);
     };
     this.onFileInputChange = /*#__PURE__*/function () {
-      var _ref = (0,C_work_test_auto_fill_Bamba_Web_ClientApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (event) {
+      var _ref = (0,C_work_upland_bamba_CORE21_NG_1_Bamba_Web_ClientApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (event) {
         const files = Array.from(event.target.files);
         const base64 = files.length !== 0 ? yield shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Files.toBase64String(files[0], true) : '';
         _this.documentStampWorkflowStep.content.base64 = base64;

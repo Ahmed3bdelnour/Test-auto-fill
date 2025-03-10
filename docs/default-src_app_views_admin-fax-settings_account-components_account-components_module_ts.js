@@ -745,7 +745,6 @@ class ServiceHeaderComponent {
     this.enabledChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
     this.changed = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
     this.onChanged = event => {
-      console.log('onChanged', this.enabled);
       this.enabled = !this.enabled;
       this.enabledChange.next(this.enabled);
       this.changed.next(this.enabled);

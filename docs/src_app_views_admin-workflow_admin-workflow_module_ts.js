@@ -2638,7 +2638,6 @@ class StepBarcodeCoverPageComponent {
       const count = parseInt(this.expectedNumberOfBarcodes);
       if (this.workflowStep.barcodeMappings.length > count) {
         this.workflowStep.barcodeMappings.splice(count);
-        console.log('this.workflowStep.barcodeMappings.length= ' + this.workflowStep.barcodeMappings.length);
         return;
       }
       do {
@@ -7411,11 +7410,13 @@ class StepDocumentStampComponent {
       this.fields = {};
       const fontFamilies = config.fontNames.map(f => ({
         name: f,
-        value: f
+        value: f,
+        style: `font-family: ${f};`
       }));
       const fontSizes = config.fontSizes.map(px => ({
         name: `${px}`,
-        value: `${px}`
+        value: `${px}`,
+        style: `font-size: ${px}px;`
       }));
       const fontColors = _blocks_components_html_editor_html_editor_toolbar_editor_toolbar_constants__WEBPACK_IMPORTED_MODULE_2__.FontColors.defaultColors.map(c => ({
         name: c.key,
@@ -7475,7 +7476,7 @@ class StepDocumentStampComponent {
           color: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(fontColors),
-            defaultValue: fontColors[0].value,
+            defaultValue: fontColors.find(f => f.name === 'Black').value,
             label: this.translate.instant('step-document-stamp.font-color')
           }),
           textField: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
@@ -10636,7 +10637,26 @@ function StepInvoiceExtractionComponent_div_8_div_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.tableExpression);
   }
 }
-function StepInvoiceExtractionComponent_div_8_td_9_Template(rf, ctx) {
+function StepInvoiceExtractionComponent_div_8_div_3_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "div", 29)(1, "app-field", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_div_3_Template_app_field_valueChange_1_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r10);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.rowExpression, $event) || (ctx_r1.invoiceExtractionStep.rowExpression = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"]($event);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.fieldTableRowExpression);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.rowExpression);
+  }
+}
+function StepInvoiceExtractionComponent_div_8_td_10_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "td", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](1);
@@ -10648,109 +10668,109 @@ function StepInvoiceExtractionComponent_div_8_td_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](2, 1, "step-invoice-extraction.mapping-column-header"));
   }
 }
-function StepInvoiceExtractionComponent_div_8_tr_14_td_3_Template(rf, ctx) {
+function StepInvoiceExtractionComponent_div_8_tr_15_td_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
+    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "td", 16)(1, "app-field", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_tr_14_td_3_Template_app_field_valueChange_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r10);
-      const i_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_tr_15_td_3_Template_app_field_valueChange_1_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r11);
+      const i_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].mappingType, $event) || (ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].mappingType = $event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].mappingType, $event) || (ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].mappingType = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const i_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
+    const i_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.lineItemMappingTypeFields[i_r11]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].mappingType);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.lineItemMappingTypeFields[i_r12]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].mappingType);
   }
 }
-function StepInvoiceExtractionComponent_div_8_tr_14_td_4_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "td", 34)(1, "app-field", 35);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_tr_14_td_4_Template_app_field_valueChange_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r12);
-      const i_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].value, $event) || (ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].value = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"]($event);
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-  }
-  if (rf & 2) {
-    const i_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.lineItemValueFields[i_r11]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].value);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("disabled", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].type == 2);
-  }
-}
-function StepInvoiceExtractionComponent_div_8_tr_14_td_5_Template(rf, ctx) {
+function StepInvoiceExtractionComponent_div_8_tr_15_td_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "td", 34)(1, "app-field", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_tr_14_td_5_Template_app_field_valueChange_1_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "td", 34)(1, "app-field", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_tr_15_td_4_Template_app_field_valueChange_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r13);
-      const i_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
+      const i_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].value, $event) || (ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].value = $event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].value, $event) || (ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].value = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const i_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
+    const i_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.lineItemAdvancedFields[i_r11]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.lineItemValueFields[i_r12]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("disabled", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].type == 2);
   }
 }
-function StepInvoiceExtractionComponent_div_8_tr_14_Template(rf, ctx) {
+function StepInvoiceExtractionComponent_div_8_tr_15_td_5_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "td", 34)(1, "app-field", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayListener"]("valueChange", function StepInvoiceExtractionComponent_div_8_tr_15_td_5_Template_app_field_valueChange_1_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r14);
+      const i_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayBindingSet"](ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].value, $event) || (ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].value = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"]($event);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
+  }
+  if (rf & 2) {
+    const i_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]().index;
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("field", ctx_r1.lineItemAdvancedFields[i_r12]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtwoWayProperty"]("value", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].value);
+  }
+}
+function StepInvoiceExtractionComponent_div_8_tr_15_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "tr")(1, "td", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](2, "app-label", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](3, StepInvoiceExtractionComponent_div_8_tr_14_td_3_Template, 2, 2, "td", 32)(4, StepInvoiceExtractionComponent_div_8_tr_14_td_4_Template, 2, 3, "td", 33)(5, StepInvoiceExtractionComponent_div_8_tr_14_td_5_Template, 2, 2, "td", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](3, StepInvoiceExtractionComponent_div_8_tr_15_td_3_Template, 2, 2, "td", 32)(4, StepInvoiceExtractionComponent_div_8_tr_15_td_4_Template, 2, 3, "td", 33)(5, StepInvoiceExtractionComponent_div_8_tr_15_td_5_Template, 2, 2, "td", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const fieldName_r14 = ctx.$implicit;
-    const i_r11 = ctx.index;
+    const fieldName_r15 = ctx.$implicit;
+    const i_r12 = ctx.index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpureFunction2"](5, _c3, ctx_r1.useInvoiceFields, !ctx_r1.useInvoiceFields));
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("text", fieldName_r14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("text", fieldName_r15);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.useInvoiceFields);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].type == 0 || ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].type == 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].type == 0 || ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].type == 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r11].type == 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.invoiceExtractionStep.lineItemMappings[i_r12].type == 1);
   }
 }
 function StepInvoiceExtractionComponent_div_8_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](1, StepInvoiceExtractionComponent_div_8_div_1_Template, 2, 2, "div", 23)(2, StepInvoiceExtractionComponent_div_8_div_2_Template, 2, 2, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](3, "table", 25)(4, "thead")(5, "tr")(6, "td", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](8, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](1, StepInvoiceExtractionComponent_div_8_div_1_Template, 2, 2, "div", 23)(2, StepInvoiceExtractionComponent_div_8_div_2_Template, 2, 2, "div", 24)(3, StepInvoiceExtractionComponent_div_8_div_3_Template, 2, 2, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](4, "table", 25)(5, "thead")(6, "tr")(7, "td", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](9, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](9, StepInvoiceExtractionComponent_div_8_td_9_Template, 3, 3, "td", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](10, "td", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](12, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](10, StepInvoiceExtractionComponent_div_8_td_10_Template, 3, 3, "td", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](11, "td", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](13, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](13, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](14, StepInvoiceExtractionComponent_div_8_tr_14_Template, 6, 8, "tr", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](14, "tbody");
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](15, StepInvoiceExtractionComponent_div_8_tr_15_Template, 6, 8, "tr", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -10759,14 +10779,16 @@ function StepInvoiceExtractionComponent_div_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.fieldLineItemsId);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.fieldTableExpression && ctx_r1.useExpressions);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpureFunction2"](11, _c2, ctx_r1.useInvoiceFields, !ctx_r1.useInvoiceFields));
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](8, 7, "step-invoice-extraction.field-column-header"), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.fieldTableRowExpression && ctx_r1.useExpressions);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpureFunction2"](12, _c2, ctx_r1.useInvoiceFields, !ctx_r1.useInvoiceFields));
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](9, 8, "step-invoice-extraction.field-column-header"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx_r1.useInvoiceFields);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](12, 9, "step-invoice-extraction.value-column-header"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](13, 10, "step-invoice-extraction.value-column-header"));
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngForOf", ctx_r1.lineItemFieldLabelNames);
   }
@@ -10825,6 +10847,12 @@ class StepInvoiceExtractionComponent {
         type: shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.MetaDataType.Text,
         label: this.translate.instant('step-invoice-extraction.table-expression-field'),
         placeholder: this.translate.instant('step-invoice-extraction.table-expression-placeholder'),
+        required: false
+      });
+      this.fieldTableRowExpression = new shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FieldDefinition({
+        type: shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.MetaDataType.Text,
+        label: this.translate.instant('step-invoice-extraction.table-row-expression-field'),
+        placeholder: this.translate.instant('step-invoice-extraction.table-row-expression-placeholder'),
         required: false
       });
     };
@@ -11053,7 +11081,7 @@ class StepInvoiceExtractionComponent {
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
           _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](6, "div", 5);
-          _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](7, StepInvoiceExtractionComponent_div_7_Template, 22, 18, "div", 6)(8, StepInvoiceExtractionComponent_div_8_Template, 15, 14, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](7, StepInvoiceExtractionComponent_div_7_Template, 22, 18, "div", 6)(8, StepInvoiceExtractionComponent_div_8_Template, 16, 15, "div", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
         }
         if (rf & 2) {
@@ -12951,7 +12979,6 @@ class StepSimpleClassifierComponent {
         nextId: nextId
       }));
       this.step.workflowStep = (0,lodash__WEBPACK_IMPORTED_MODULE_0__.cloneDeep)(this.simpleClassifierStep);
-      console.log(this.step.workflowStep);
     };
     this.outcomeFromClassification = c => {
       const nextId = this.simpleClassifierStep.outcomes.find(o => o.id == c.id)?.nextId ?? '';
@@ -13378,7 +13405,6 @@ class StepTranslateDocumentComponent {
   }
   ngOnInit() {
     this.translateDocument = this.step.workflowStep;
-    console.log(`${this.translateDocument}`);
     this.createFields();
   }
   static {

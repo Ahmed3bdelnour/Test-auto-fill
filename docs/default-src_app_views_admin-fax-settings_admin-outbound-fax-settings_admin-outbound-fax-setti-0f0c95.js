@@ -1064,9 +1064,7 @@ class OutboundGeneralTabComponent {
     this.mainItems = ['{to} ', '{from} ', '{totalpages} ', '{pagenumber} '];
     this.dateFormats = ['{datedd/mm/yy} ', '{datedd/mm/yyyy} ', '{datemm/dd/yyyy} ', '{dateyyyy/mm/dd} ', '{datelong} '];
     this.timeFormats = ['{timehhmmss} ', '{timehhmm} ', '{timehhmmsstt} '];
-    this.onTextdrop = p => {
-      console.log('onTextdrop', p);
-    };
+    this.onTextdrop = p => {};
     this.createFields = () => {
       const options = _blocks_InterFAX_Models_outbound__WEBPACK_IMPORTED_MODULE_1__.Countries.getAsFieldOptions(this.supportedValues.countries, this.translateService);
       const countryDataSource = new shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FixedDataSource(options);

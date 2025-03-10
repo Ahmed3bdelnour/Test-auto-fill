@@ -759,7 +759,6 @@ class InstalledComponentComponent {
     };
     this.closeConfirmModal = () => this.ngxSmartModalService.getModal('actionConfirmModal').close();
     this.showUpdateModal = action => {
-      console.log(action);
       this.errors = [];
       this.modalEditInstalledComponent = new _blocks_models_deployments__WEBPACK_IMPORTED_MODULE_1__.InstalledComponent(action.item);
       this.installedComponentModalKey = action.item.componentId;

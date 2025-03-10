@@ -979,7 +979,6 @@ class AutoForwardComponent {
     this.subscriptions.add(this.autoForwardRestrictionModalInstance.onClose.subscribe(() => this.showAutoForwardRestrictionModal = false));
   }
   createForwardTableItem(redistribute) {
-    console.log('createForwardTableItem', redistribute);
     redistribute['icon'] = this.forwardTypeIcons[redistribute.redistributeToType];
     redistribute['displayDestination'] = this.getDisplayDestination(redistribute);
     const tableItem = new shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.TableItem(redistribute, this.autoForwardColumns, this.translate);
@@ -2710,7 +2709,6 @@ class InboundGeneralFaxSettingsComponent {
       this.webServiceIntegrationUrl.substitutable = this.inboundWebIntegrationType == 'Http';
     };
     this.setExtendedConfiguration = () => {
-      console.log(`setExtendedConfiguraition ${this.inboundWebIntegrationType}`);
       if (this.inboundWebIntegrationType == 'Http') {
         this.httpConfiguration = this.inboundFaxSettings.webIntegration.extendedConfiguration;
       }
@@ -3717,7 +3715,6 @@ class WebpostEfaxComponent {
     };
   }
   ngOnInit() {
-    console.log(this.configuration);
     this.createFields();
   }
   fileTypeFormatDataSource() {

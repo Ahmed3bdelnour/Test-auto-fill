@@ -2644,7 +2644,6 @@ class ChartWidgetComponent {
       });
     };
     this.onSelectBar = filters => {
-      console.log('onSelectBar', filters);
       if (this.chartData.length == 0) return;
     };
     this.toggleLoadingState = state => {
@@ -4087,7 +4086,6 @@ class ListViewComponent {
     };
     this.toggleLoadingState = state => {
       if (state.state) this.loaders++;else this.loaders--;
-      console.log(this.loaders);
       if (!state.state && this.loaders > 0) return;
       this.loading = state.state;
       this.spinnerMessage = state.message ? state.message : this.translate.instant('Common.Loading');

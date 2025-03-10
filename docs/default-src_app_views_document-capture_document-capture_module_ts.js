@@ -5903,7 +5903,6 @@ class FolderComponent {
     }, 10);
   }
   onClickMenuButton(event, dropdown) {
-    console.log('onClickMenuButton');
     this.selectFolder();
     this.contextMenu.open(event, null, null, this.getFolderContextMenuActions());
   }
@@ -6416,7 +6415,6 @@ class IndexingPanelComponent {
           }
         });
         this.selectedDocument.workitem.metadata.metadata.forEach(md => {
-          console.log(md);
           if (md.previewHilight == shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.MetaDataPreviewHilight.None) return;
           if (!md.location) return;
           if (!md.location.valid) return;
@@ -6514,7 +6512,6 @@ class IndexingPanelComponent {
     this.moveTo(index);
   }
   onBlur(blurEvent, mdd) {
-    console.log('onBlur', event, mdd);
     if (this.disableBlur) return;
     if (blurEvent.context.id != this.getContext.id) return;
     if (blurEvent.mdd) mdd = blurEvent.mdd;
@@ -7161,7 +7158,6 @@ class LineItemIndexingComponent {
     }));
     this.subscriptions.add(this.captureUpdate.onUpdateLineItemTableBody.subscribe(event => {
       if (this.loadingDefaultValues) {
-        console.log('waiting for loading default values');
         this.addNewLineItemSubject.subscribe(() => {
           this.updateLineItems(event);
         }).unsubscribe();

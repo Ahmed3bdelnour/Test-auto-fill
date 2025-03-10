@@ -366,7 +366,6 @@ class AdminMarketingBlurbComponent {
       this.MarketingBlurb = new _blocks_models_marketing_blurb__WEBPACK_IMPORTED_MODULE_2__.MarketingBlurb({
         ...ApiResult.object
       });
-      console.log(this.MarketingBlurb);
       this.cdr.markForCheck();
       this.spinner.hide();
     };

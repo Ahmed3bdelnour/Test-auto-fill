@@ -266,8 +266,8 @@ class AccountConfirmationComponent {
         valid: "valid"
       },
       decls: 17,
-      vars: 9,
-      consts: [[1, "account-confirmation"], [1, "user-details"], [3, "text", "image"], [1, "indent"], [1, "row", "user-name"], [1, "col"], [1, "row"], [1, "col", "text-truncate"], [1, "outbound-details"], [3, "display", "summaryProvider"], [3, "agreed", "brandedServiceTermsUrl"]],
+      vars: 10,
+      consts: [[1, "account-confirmation"], [1, "user-details"], [3, "text", "image"], [1, "indent"], [1, "row", "user-name"], [1, "col"], [1, "row"], [1, "col", "text-truncate", 3, "title"], [1, "outbound-details"], [3, "display", "summaryProvider"], [3, "agreed", "brandedServiceTermsUrl"]],
       template: function AccountConfirmationComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
@@ -301,7 +301,9 @@ class AccountConfirmationComponent {
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", ctx.account.username, " ");
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", ctx.account.email, " ");
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("title", ctx.account.name);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx.account.name);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("text", "fax-user-create.service-details")("image", "material/fax.svg");

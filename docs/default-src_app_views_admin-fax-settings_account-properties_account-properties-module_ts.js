@@ -1575,7 +1575,8 @@ class RetentionPolicyComponent {
         type: shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.MetaDataType.Integer,
         label: this.translateService.instant('retention-policy.duration'),
         placeholder: '',
-        required: true
+        required: true,
+        allowNegativeNumbers: false
       });
       this.fieldCustomPropertyUnit = new shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FieldDefinition({
         type: shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.MetaDataType.List,
